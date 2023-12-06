@@ -1,0 +1,174 @@
+halaman bahan : 
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="globals.css" />
+        <link rel="stylesheet" href="styleguide.css" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="bahan">
+            <div class="div">
+                <p class="a-alat-pengukur-suhu">
+                    <br />a. Alat pengukur suhu<br />b. Alat pengukur kelembaban<br />c. Alat pengukur cahaya matahari<br />d.
+                    Alat untuk penyiraman<br />e. Alat penyemprot pestisida
+                </p>
+                <div class="overlap">
+                    <img class="arrow" src="img/arrow-8.svg" />
+                    <div class="text-wrapper">Bahan/peralatan tambahan</div>
+                </div>
+                <img class="jonathan-kemper" src="img/jonathan-kemper-vtxw4-5ssna-unsplash-1.png" />
+                <div class="overlap-group">
+                    <div class="rectangle"></div>
+                    <div class="rectangle-2"></div>
+                    <div class="rectangle-3"></div>
+                    <div class="rectangle-4"></div>
+                    <div class="rectangle-5"></div>
+                    <div class="rectangle-6"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+
+css : 
+
+.bahan {
+    background-color: #021c1e;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.bahan .div {
+    background-color: #021c1e;
+    overflow: hidden;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+}
+
+.bahan .a-alat-pengukur-suhu {
+    position: absolute;
+    top: 385px;
+    left: 740px;
+    font-family: "Inika-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 35px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.bahan .overlap {
+    position: absolute;
+    width: 603px;
+    height: 106px;
+    top: 110px;
+    left: 695px;
+}
+
+.bahan .arrow {
+    position: absolute;
+    width: 462px;
+    height: 5px;
+    top: 102px;
+    left: 0;
+}
+
+.bahan .text-wrapper {
+    position: absolute;
+    top: 0;
+    left: 8px;
+    font-family: "Inknut Antiqua-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.bahan .jonathan-kemper {
+    position: absolute;
+    width: 627px;
+    height: 1024px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.bahan .overlap-group {
+    position: absolute;
+    width: 129px;
+    height: 1090px;
+    top: -39px;
+    left: 1375px;
+}
+
+.bahan .rectangle {
+    width: 65px;
+    height: 185px;
+    top: 905px;
+    position: absolute;
+    left: 0;
+    background-color: #00fbece0;
+    border-radius: 143px;
+    mix-blend-mode: overlay;
+}
+
+.bahan .rectangle-2 {
+    position: absolute;
+    width: 65px;
+    height: 196px;
+    top: 0;
+    left: 0;
+    background-color: #00fbece0;
+    border-radius: 143px;
+    mix-blend-mode: overlay;
+}
+
+.bahan .rectangle-3 {
+    width: 129px;
+    height: 371px;
+    top: 32px;
+    position: absolute;
+    left: 0;
+    background-color: #00fbece0;
+    border-radius: 143px;
+    mix-blend-mode: overlay;
+}
+
+.bahan .rectangle-4 {
+    width: 65px;
+    height: 371px;
+    top: 238px;
+    position: absolute;
+    left: 0;
+    background-color: #00fbece0;
+    border-radius: 143px;
+    mix-blend-mode: overlay;
+}
+
+.bahan .rectangle-5 {
+    width: 129px;
+    height: 371px;
+    top: 704px;
+    position: absolute;
+    left: 0;
+    background-color: #00fbece0;
+    border-radius: 143px;
+    mix-blend-mode: overlay;
+}
+
+.bahan .rectangle-6 {
+    width: 129px;
+    height: 371px;
+    top: 481px;
+    position: absolute;
+    left: 0;
+    background-color: #00fbece0;
+    border-radius: 143px;
+    mix-blend-mode: overlay;
+}

@@ -1,0 +1,131 @@
+halaman poly film :
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="globals.css" />
+        <link rel="stylesheet" href="styleguide.css" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="polyethylene-film">
+            <div class="overlap-group-wrapper">
+                <div class="overlap-group">
+                    <img class="arrow" src="img/arrow-4.svg" />
+                    <img class="img" src="img/arrow-5.svg" />
+                    <img class="arrow-2" src="img/arrow-6.svg" />
+                    <img class="arrow-3" src="img/arrow-7.png" />
+                    <p class="kekurangan-kurang">
+                        <br />Kekurangan:<br />1. Kurang tahan lama<br />2. Bentuknya kurang menarik<br />3. Membutuhkan penanganan
+                        lebih intensif
+                    </p>
+                    <div class="kelebihan-sangat">Kelebihan :<br />1. Sangat murah</div>
+                    <img class="image" src="img/image-8.png" />
+                    <div class="text-wrapper">POLYETHYLENE FILM</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+
+css : 
+
+.polyethylene-film {
+    background-color: #021c1e;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.polyethylene-film .overlap-group-wrapper {
+    background-color: #021c1e;
+    overflow: hidden;
+    width: 1440px;
+    height: 1024px;
+}
+
+.polyethylene-film .overlap-group {
+    position: relative;
+    height: 1078px;
+    top: -1px;
+}
+
+.polyethylene-film .arrow {
+    position: absolute;
+    width: 1019px;
+    height: 1019px;
+    top: 1px;
+    left: 0;
+}
+
+.polyethylene-film .img {
+    position: absolute;
+    width: 1021px;
+    height: 1019px;
+    top: 6px;
+    left: 130px;
+}
+
+.polyethylene-film .arrow-2 {
+    position: absolute;
+    width: 1021px;
+    height: 1011px;
+    top: 14px;
+    left: 281px;
+}
+
+.polyethylene-film .arrow-3 {
+    position: absolute;
+    width: 1019px;
+    height: 1019px;
+    top: 6px;
+    left: 421px;
+}
+
+.polyethylene-film .kekurangan-kurang {
+    position: absolute;
+    width: 623px;
+    top: 798px;
+    left: 386px;
+    font-family: "Inika-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.polyethylene-film .kelebihan-sangat {
+    position: absolute;
+    top: 850px;
+    left: 64px;
+    font-family: "Inika-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.polyethylene-film .image {
+    position: absolute;
+    width: 1014px;
+    height: 633px;
+    top: 166px;
+    left: 213px;
+    object-fit: cover;
+}
+
+.polyethylene-film .text-wrapper {
+    position: absolute;
+    top: 0;
+    left: 285px;
+    font-family: "Inknut Antiqua-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 64px;
+    letter-spacing: 0;
+    line-height: normal;
+}

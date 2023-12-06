@@ -1,0 +1,281 @@
+halaman macam - macam tanaman aquaponik : 
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="globals.css" />
+        <link rel="stylesheet" href="styleguide.css" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="tanaman-aqua">
+            <div class="macam-tanaman-aqua">
+                <div class="text-wrapper">MACAM-MACAM TANAMAN AQUAPONIK</div>
+                <div class="overlap">
+                    <div class="div">Kangkung</div>
+                    <img class="kangkung-removebg" src="img/kangkung-removebg-preview-1.png" />
+                </div>
+                <div class="overlap-group">
+                    <div class="text-wrapper-2">Bayam</div>
+                    <img class="removebg" src="img/bayam1-removebg-preview-1.png" />
+                </div>
+                <div class="overlap-2">
+                    <div class="text-wrapper-3">Selada</div>
+                    <img class="selada-removebg" src="img/selada-removebg-preview-2.png" />
+                </div>
+                <div class="overlap-3">
+                    <div class="text-wrapper-4">Terong</div>
+                    <img class="terong-removebg" src="img/terong-removebg-preview-1.png" />
+                </div>
+                <div class="overlap-4">
+                    <div class="text-wrapper-5">Cabai</div>
+                    <img class="cbai-removebg" src="img/cbai-removebg-preview-1.png" />
+                </div>
+                <div class="overlap-group-2">
+                    <div class="rectangle"></div>
+                    <div class="text-wrapper-6">Tomat</div>
+                    <img class="tomat-removebg" src="img/tomat-removebg-preview-1.png" />
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+
+css :
+
+.tanaman-aqua {
+    background-color: #021c1e;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.tanaman-aqua .macam-tanaman-aqua {
+    background-color: #021c1e;
+    overflow: hidden;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+}
+
+.tanaman-aqua .text-wrapper {
+    position: absolute;
+    width: 1273px;
+    top: 38px;
+    left: 98px;
+    font-family: "Inknut Antiqua-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.tanaman-aqua .overlap {
+    width: 351px;
+    top: 199px;
+    left: 68px;
+    background-color: #008b8b8c;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px #000000;
+    position: absolute;
+    height: 362px;
+}
+
+.tanaman-aqua .div {
+    position: absolute;
+    width: 253px;
+    top: 261px;
+    left: 49px;
+    font-family: "Inknut Antiqua-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.tanaman-aqua .kangkung-removebg {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 29px;
+    left: 58px;
+    object-fit: cover;
+}
+
+.tanaman-aqua .overlap-group {
+    width: 351px;
+    top: 613px;
+    left: 68px;
+    background-color: #008b8b8c;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px #000000;
+    position: absolute;
+    height: 362px;
+}
+
+.tanaman-aqua .text-wrapper-2 {
+    position: absolute;
+    width: 253px;
+    top: 252px;
+    left: 98px;
+    font-family: "Inknut Antiqua-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.tanaman-aqua .removebg {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 21px;
+    left: 49px;
+    object-fit: cover;
+}
+
+.tanaman-aqua .overlap-2 {
+    width: 351px;
+    top: 199px;
+    left: 544px;
+    background-color: #008b8b8c;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px #000000;
+    position: absolute;
+    height: 362px;
+}
+
+.tanaman-aqua .text-wrapper-3 {
+    position: absolute;
+    width: 189px;
+    top: 261px;
+    left: 96px;
+    font-family: "Inknut Antiqua-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.tanaman-aqua .selada-removebg {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 29px;
+    left: 48px;
+    object-fit: cover;
+}
+
+.tanaman-aqua .overlap-3 {
+    width: 351px;
+    top: 613px;
+    left: 544px;
+    background-color: #008b8b8c;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px #000000;
+    position: absolute;
+    height: 362px;
+}
+
+.tanaman-aqua .text-wrapper-4 {
+    position: absolute;
+    width: 189px;
+    top: 252px;
+    left: 96px;
+    font-family: "Inknut Antiqua-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.tanaman-aqua .terong-removebg {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 21px;
+    left: 51px;
+    object-fit: cover;
+}
+
+.tanaman-aqua .overlap-4 {
+    width: 351px;
+    top: 199px;
+    left: 1020px;
+    background-color: #008b8b8c;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px #000000;
+    position: absolute;
+    height: 362px;
+}
+
+.tanaman-aqua .text-wrapper-5 {
+    position: absolute;
+    width: 162px;
+    top: 269px;
+    left: 110px;
+    font-family: "Inknut Antiqua-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.tanaman-aqua .cbai-removebg {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 29px;
+    left: 43px;
+    object-fit: cover;
+}
+
+.tanaman-aqua .overlap-group-2 {
+    width: 428px;
+    top: 613px;
+    left: 1020px;
+    position: absolute;
+    height: 362px;
+}
+
+.tanaman-aqua .rectangle {
+    position: absolute;
+    width: 351px;
+    height: 362px;
+    top: 0;
+    left: 0;
+    background-color: #008b8b8c;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px #000000;
+}
+
+.tanaman-aqua .text-wrapper-6 {
+    position: absolute;
+    width: 332px;
+    top: 252px;
+    left: 96px;
+    font-family: "Inknut Antiqua-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.tanaman-aqua .tomat-removebg {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 21px;
+    left: 66px;
+    object-fit: cover;
+}

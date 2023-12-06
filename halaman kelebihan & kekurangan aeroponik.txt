@@ -1,0 +1,98 @@
+halaman kelebihan & kekurangan aeroponik :
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="globals.css" />
+        <link rel="stylesheet" href="styleguide.css" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="kelebihan-kekurangan">
+            <div class="div">
+                <div class="text-wrapper">KELEBIHAN DAN KEKURANGAN AEROPONIK</div>
+                <div class="overlap-group">
+                    <div class="gh-awal"></div>
+                    <p class="kelebihan-kebutuhan">
+                        Kelebihan :<br />· Kebutuhan air lebih sedikit karena diuapkan terlebih dahulu kemudian disemprotkan ke
+                        tanaman.<br />· Tak perlu mengolah lahan<br />· Tahan hama dan gulma<br />· Metode aeroponik tidak mengenal
+                        musim tanam<br />· Lebih cepat panen<br /><br />Kekurangan :<br />· Biaya cukup mahal<br />· Sulit
+                        mendapatkan komponen untuk membangun sistem pertanian aeroponik<br />· Bergantung pada listrik
+                    </p>
+                    <img class="aero-gh" src="img/aero-gh-1.png" />
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+css :
+
+.kelebihan-kekurangan {
+    background-color: #021c1e;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.kelebihan-kekurangan .div {
+    background-color: #021c1e;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+}
+
+.kelebihan-kekurangan .text-wrapper {
+    position: absolute;
+    width: 1392px;
+    top: 42px;
+    left: 48px;
+    font-family: "Inknut Antiqua-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.kelebihan-kekurangan .overlap-group {
+    position: absolute;
+    width: 1313px;
+    height: 709px;
+    top: 210px;
+    left: 48px;
+}
+
+.kelebihan-kekurangan .gh-awal {
+    position: absolute;
+    width: 1013px;
+    height: 690px;
+    top: 0;
+    left: 300px;
+    background-color: #008b8b8c;
+    border-radius: 25px;
+}
+
+.kelebihan-kekurangan .kelebihan-kebutuhan {
+    position: absolute;
+    width: 674px;
+    top: 82px;
+    left: 624px;
+    font-family: "Inika-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.kelebihan-kekurangan .aero-gh {
+    position: absolute;
+    width: 602px;
+    height: 458px;
+    top: 56px;
+    left: 0;
+    object-fit: cover;
+}

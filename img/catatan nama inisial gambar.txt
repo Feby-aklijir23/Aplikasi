@@ -1,0 +1,54 @@
+keteranga insial gambar : 
+1. HU = Halaman Utama ✔
+2. HIG = Halaman Isi Greenhouse ✔
+1. KG-B = Kerangka Grennhouse Bambu ✔
+2. KG-K = Kerangka Grennhouse Kayu ✔
+3. KG-BR = Kerangka Greenhouse Baja Ringan ✔
+4. KG-A = Kerangka Greenhouse Acrylic ✔
+5. POLY = Polycarbonate ✔
+6. FRP = Fireglass Reinforced Polyester ✔
+7. PF = Polyethylene Film✔
+8. PCF = Polyvinyl Cholride Film ✔
+9. B = Bahan✔
+10. M = Method ✔
+11. IH = isi hidroponik✔
+12. KKH = kelebihan & kekurangan hidroponik✔
+13. MMH = macam - macam hidroponik :✔
+	a. SLD = SELADA✔
+	b. SWHJ = SAWI HIJAU✔
+	c. BYM = BAYAM ✔
+	d. KKG = KANGKUNG✔
+	e. SLDR = SELEDRI✔
+	f. DNBWNG = DAUN BAWANG ✔
+
+14. DS = definisi selada
+15. CS = cara semai selada
+
+16. AP = isi aquaponik ✔
+17. AKK = aquaponik > kelebihan & kekurangan ✔
+18. MMA = macam - macam aquaponik : ✔
+	a. KKG = KANGKUNG ✔
+	b. BYM = BAYAM ✔
+	c. SLD = SELADA ✔
+	d. TRG = TERONG✔
+	e. CBI = CABAI✔
+	f. TMT = TOMAT ✔
+
+19. halaman definisi, cara semai, perawatan
+
+20. AERO = isi halaman aeroponik ✔
+21. ARKK = aeroponik > kelebihan & kekurangan✔
+22. MMAERO = macam - macam aeroponik :✔ 
+	a. SLD = SELADA ✔ 
+	b. TRG = TERONG ✔ 
+	c. STBR = STROBERI✔ 
+	d. DNBS = DAUN BASIL ✔ 
+	e. TMT = TOMAT ✔ 
+	f. MTM = MENTIMUN✔ 
+23.halaman definis, cara semai, perawatan
+
+24. halaman contact : ✔ 
+	a. FB = FACEBOOK ✔ 
+	b. IG = INSTAGRAM ✔ 
+	c. X_TWIT = X/TWITTER✔ 
+	d. Line3_contact ✔ 

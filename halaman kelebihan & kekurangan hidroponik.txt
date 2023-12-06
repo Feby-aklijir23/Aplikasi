@@ -1,0 +1,102 @@
+halaman kelebihan & kekurangan hidroponik :
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="globals.css" />
+        <link rel="stylesheet" href="styleguide.css" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="HIDRO-kelebihan">
+            <div class="div">
+                <div class="text-wrapper">KELEBIHAN DAN KEKURANGAN HIDROPONIK</div>
+                <div class="overlap-group">
+                    <div class="gh-awal"></div>
+                    <img class="tanaman-hidroponik" src="img/tanaman-hidroponik-1.png" />
+                    <p class="kelebihan-tidak">
+                        Kelebihan :<br />· Tidak membutuhkan pekarangan yang luas.<br />· Penggunaan air jauh lebih sedikit.<br />·
+                        Dapat ditanam di mana saja dan tidak membutuhkan pencahayaan yang banyak.<br />· Bebas dari hama dan
+                        penyakit.<br />· Dapat dijual dengan lebih tinggi karena kualitasnya.<br />· Dapat dengan mudah mengecek
+                        akar tanaman secara rutin.<br />· Dapat dikonsumsi secara keseluruhan baik akar, buah, maupun batangnya
+                        karena bebas dari hama.<br />· Proses pertumbuhan dan perkembangannya lebih cepat.<br /><br />Kekurangan
+                        :<br />· Membutuhkan modal yang cukup besar.<br />· Peralatan yang dibutuhkan masih sulit didapatkan.<br />·
+                        Membutuhkan perawatan dan ketelitian yang lebih ekstra.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+
+css : 
+
+.HIDRO-kelebihan {
+    background-color: #021c1e;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.HIDRO-kelebihan .div {
+    background-color: #021c1e;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+}
+
+.HIDRO-kelebihan .text-wrapper {
+    position: absolute;
+    width: 1392px;
+    top: 42px;
+    left: 48px;
+    font-family: "Inknut Antiqua-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.HIDRO-kelebihan .overlap-group {
+    position: absolute;
+    width: 1313px;
+    height: 690px;
+    top: 210px;
+    left: 48px;
+}
+
+.HIDRO-kelebihan .gh-awal {
+    position: absolute;
+    width: 1013px;
+    height: 690px;
+    top: 0;
+    left: 300px;
+    background-color: #008b8b8c;
+    border-radius: 25px;
+}
+
+.HIDRO-kelebihan .tanaman-hidroponik {
+    position: absolute;
+    width: 602px;
+    height: 522px;
+    top: 105px;
+    left: 0;
+    object-fit: cover;
+}
+
+.HIDRO-kelebihan .kelebihan-tidak {
+    position: absolute;
+    width: 674px;
+    top: 30px;
+    left: 616px;
+    font-family: "Inika-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 26px;
+    letter-spacing: 0;
+    line-height: normal;
+}

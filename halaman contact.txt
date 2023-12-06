@@ -1,0 +1,181 @@
+halaman contact :
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="globals.css" />
+        <link rel="stylesheet" href="styleguide.css" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="footer">
+            <div class="div">
+                <div class="text-wrapper">JEJARING KONTAK</div>
+                <footer class="overlap-group-wrapper">
+                    <div class="overlap-group"><p class="p">Copyright © 2023 LeafGuardians. All Rights Reserved.</p></div>
+                </footer>
+                <div class="medsos">
+                    <img class="group" src="img/group.png" />
+                    <div class="text-wrapper-2">usn facebook</div>
+                    <div class="overlap">
+                        <div class="text-wrapper-3">usn instagram</div>
+                        <img class="img" src="img/image.png" />
+                        <img class="line" src="img/line-3.svg" />
+                    </div>
+                    <div class="text-wrapper-4">usn twttr</div>
+                    <img class="group-2" src="img/group-2.png" />
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+
+css : 
+
+.footer {
+    background-color: #135055;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer .div {
+    background-color: #135055;
+    overflow: hidden;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+}
+
+.footer .text-wrapper {
+    position: absolute;
+    width: 416px;
+    top: 470px;
+    left: 550px;
+    font-family: "Josefin Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.footer .overlap-group-wrapper {
+    position: absolute;
+    width: 1442px;
+    height: 109px;
+    top: 915px;
+    left: 0;
+    background-color: transparent;
+}
+
+.footer .overlap-group {
+    position: relative;
+    width: 1440px;
+    height: 109px;
+    background-color: #021c1e;
+}
+
+.footer .p {
+    position: absolute;
+    width: 938px;
+    top: 41px;
+    left: 410px;
+    font-family: "JejuGothic-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.footer .medsos {
+    position: absolute;
+    width: 1099px;
+    height: 258px;
+    top: 605px;
+    left: 213px;
+}
+
+.footer .group {
+    left: 53px;
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: 39px;
+}
+
+.footer .text-wrapper-2 {
+    top: 188px;
+    left: 0;
+    position: absolute;
+    width: 231px;
+    font-family: "Timmana-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.footer .overlap {
+    position: absolute;
+    width: 428px;
+    height: 256px;
+    top: 0;
+    left: 316px;
+}
+
+.footer .text-wrapper-3 {
+    top: 188px;
+    left: 108px;
+    position: absolute;
+    width: 231px;
+    font-family: "Timmana-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.footer .img {
+    left: 170px;
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: 39px;
+}
+
+.footer .line {
+    position: absolute;
+    width: 428px;
+    height: 230px;
+    top: 0;
+    left: 0;
+}
+
+.footer .text-wrapper-4 {
+    top: 190px;
+    left: 862px;
+    position: absolute;
+    width: 231px;
+    font-family: "Timmana-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.footer .group-2 {
+    left: 888px;
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: 39px;
+}

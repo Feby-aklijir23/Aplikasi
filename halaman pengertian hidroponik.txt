@@ -1,0 +1,72 @@
+halaman pengertian hidroponik :
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="globals.css" />
+        <link rel="stylesheet" href="styleguide.css" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="HIDRO-isi-halaman">
+            <div class="overlap-group-wrapper">
+                <div class="overlap-group">
+                    <div class="rectangle"></div>
+                    <p class="text-wrapper">
+                        Greenhouse pada area kebun hidroponik dapat melindungi terpaan langsung air hujan pada tanaman dan media
+                        tanam. Karena terpaan langsung air hujan pada daun dapat menimbulkan masalah baru berupa pembusukan daun
+                        tanaman beserta batangnya. Disamping itu juga menyuburkan cendawan, lumut dan tanaman pengganggu lainnya.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+css : 
+
+.HIDRO-isi-halaman {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.HIDRO-isi-halaman .overlap-group-wrapper {
+    background-color: #ffffff;
+    width: 1440px;
+    height: 1024px;
+}
+
+.HIDRO-isi-halaman .overlap-group {
+    position: relative;
+    height: 1024px;
+    background-image: url(./img/gh.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.HIDRO-isi-halaman .rectangle {
+    position: absolute;
+    width: 720px;
+    height: 1024px;
+    top: 0;
+    left: 0;
+    background-color: #072530b5;
+    border-radius: 15px;
+}
+
+.HIDRO-isi-halaman .text-wrapper {
+    position: absolute;
+    width: 500px;
+    top: 266px;
+    left: 110px;
+    font-family: "Inika-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 35px;
+    letter-spacing: 0;
+    line-height: normal;
+}

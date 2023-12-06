@@ -1,0 +1,283 @@
+halaman macam - macam tanaman aeroponik :
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="globals.css" />
+        <link rel="stylesheet" href="styleguide.css" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="tanaman-aero">
+            <div class="macam-tanaman-aero">
+                <div class="text-wrapper">MACAM-MACAM TANAMAN AEROPONIK</div>
+                <div class="overlap">
+                    <div class="div">Selada</div>
+                    <img class="selada-removebg" src="img/selada-removebg-preview-3.png" />
+                </div>
+                <div class="overlap-group">
+                    <div class="text-wrapper-2">Terong</div>
+                    <img class="terong-removebg" src="img/terong-removebg-preview-1.png" />
+                </div>
+                <div class="overlap-group-2">
+                    <div class="text-wrapper-3">Strawberry</div>
+                    <img class="stroberi-removebg" src="img/stroberi-removebg-preview-1.png" />
+                </div>
+                <div class="overlap-2">
+                    <div class="text-wrapper-4">Daun Basil</div>
+                    <img class="daun-basil-removebg" src="img/daun-basil-removebg-preview-1.png" />
+                </div>
+                <div class="overlap-3">
+                    <div class="rectangle"></div>
+                    <div class="text-wrapper-5">Tomat</div>
+                    <img class="tomat-removebg" src="img/tomat-removebg-preview-1.png" />
+                </div>
+                <div class="overlap-4">
+                    <div class="text-wrapper-6">Mentimun</div>
+                    <img class="mentimun-removebg" src="img/mentimun-removebg-preview-1.png" />
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+
+
+css : 
+
+
+.tanaman-aero {
+    background-color: #021c1e;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.tanaman-aero .macam-tanaman-aero {
+    background-color: #021c1e;
+    overflow: hidden;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+}
+
+.tanaman-aero .text-wrapper {
+    position: absolute;
+    width: 1273px;
+    top: 38px;
+    left: 98px;
+    font-family: "Inknut Antiqua-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.tanaman-aero .overlap {
+    width: 351px;
+    top: 199px;
+    left: 68px;
+    background-color: #008b8b8c;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px #000000;
+    position: absolute;
+    height: 362px;
+}
+
+.tanaman-aero .div {
+    position: absolute;
+    width: 189px;
+    top: 269px;
+    left: 98px;
+    font-family: "Inknut Antiqua-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.tanaman-aero .selada-removebg {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 29px;
+    left: 58px;
+    object-fit: cover;
+}
+
+.tanaman-aero .overlap-group {
+    width: 351px;
+    top: 613px;
+    left: 68px;
+    background-color: #008b8b8c;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px #000000;
+    position: absolute;
+    height: 362px;
+}
+
+.tanaman-aero .text-wrapper-2 {
+    position: absolute;
+    width: 189px;
+    top: 257px;
+    left: 81px;
+    font-family: "Inknut Antiqua-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.tanaman-aero .terong-removebg {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 26px;
+    left: 51px;
+    object-fit: cover;
+}
+
+.tanaman-aero .overlap-group-2 {
+    width: 351px;
+    top: 199px;
+    left: 544px;
+    background-color: #008b8b8c;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px #000000;
+    position: absolute;
+    height: 362px;
+}
+
+.tanaman-aero .text-wrapper-3 {
+    position: absolute;
+    width: 274px;
+    top: 265px;
+    left: 51px;
+    font-family: "Inknut Antiqua-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.tanaman-aero .stroberi-removebg {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 56px;
+    left: 58px;
+    object-fit: cover;
+}
+
+.tanaman-aero .overlap-2 {
+    width: 351px;
+    top: 613px;
+    left: 544px;
+    background-color: #008b8b8c;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px #000000;
+    position: absolute;
+    height: 362px;
+}
+
+.tanaman-aero .text-wrapper-4 {
+    position: absolute;
+    width: 255px;
+    top: 257px;
+    left: 60px;
+    font-family: "Inknut Antiqua-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.tanaman-aero .daun-basil-removebg {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 30px;
+    left: 51px;
+    object-fit: cover;
+}
+
+.tanaman-aero .overlap-3 {
+    width: 433px;
+    top: 199px;
+    left: 1020px;
+    position: absolute;
+    height: 362px;
+}
+
+.tanaman-aero .rectangle {
+    position: absolute;
+    width: 351px;
+    height: 362px;
+    top: 0;
+    left: 0;
+    background-color: #008b8b8c;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px #000000;
+}
+
+.tanaman-aero .text-wrapper-5 {
+    position: absolute;
+    width: 332px;
+    top: 247px;
+    left: 101px;
+    font-family: "Inknut Antiqua-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.tanaman-aero .tomat-removebg {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 29px;
+    left: 64px;
+    object-fit: cover;
+}
+
+.tanaman-aero .overlap-4 {
+    width: 351px;
+    top: 613px;
+    left: 1020px;
+    background-color: #008b8b8c;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px #000000;
+    position: absolute;
+    height: 362px;
+}
+
+.tanaman-aero .text-wrapper-6 {
+    position: absolute;
+    width: 255px;
+    top: 257px;
+    left: 61px;
+    font-family: "Inknut Antiqua-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.tanaman-aero .mentimun-removebg {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 26px;
+    left: 66px;
+    object-fit: cover;
+}

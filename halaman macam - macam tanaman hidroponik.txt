@@ -1,0 +1,249 @@
+halaman macam - macam tanaman hidroponik :
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="globals.css" />
+        <link rel="stylesheet" href="styleguide.css" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="HIDRO-macam-tanaman">
+            <div class="div">
+                <div class="text-wrapper">MACAM-MACAM TANAMAN HIDROPONIK</div>
+                <div class="overlap">
+                    <div class="text-wrapper-2">Selada</div>
+                    <img class="selada-removebg" src="img/selada-removebg-preview-1.png" />
+                </div>
+                <div class="overlap-group">
+                    <div class="text-wrapper-3">Sawi Hijau</div>
+                    <img class="sawi-removebg" src="img/sawi-hijau2-removebg-preview-1.png" />
+                </div>
+                <div class="overlap-2">
+                    <div class="text-wrapper-4">Bayam</div>
+                    <img class="removebg" src="img/bayam1-removebg-preview-1.png" />
+                </div>
+                <div class="overlap-group-2">
+                    <div class="text-wrapper-5">Kangkung</div>
+                    <img class="img" src="img/kangkung-removebg-preview-1.png" />
+                </div>
+                <div class="overlap-3">
+                    <div class="text-wrapper-4">Seledri</div>
+                    <img class="removebg" src="img/seledri1-removebg-preview-1.png" />
+                </div>
+                <div class="overlap-4">
+                    <div class="rectangle"></div>
+                    <div class="text-wrapper-6">Daun Bawang</div>
+                    <img class="img" src="img/daun-bawang-removebg-preview-1.png" />
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+
+css :
+
+.HIDRO-macam-tanaman {
+    background-color: #021c1e;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.HIDRO-macam-tanaman .div {
+    background-color: #021c1e;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+}
+
+.HIDRO-macam-tanaman .text-wrapper {
+    position: absolute;
+    width: 1273px;
+    top: 38px;
+    left: 98px;
+    font-family: "Inknut Antiqua-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.HIDRO-macam-tanaman .overlap {
+    width: 351px;
+    top: 199px;
+    left: 68px;
+    background-color: #008b8b8c;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px #000000;
+    position: absolute;
+    height: 362px;
+}
+
+.HIDRO-macam-tanaman .text-wrapper-2 {
+    position: absolute;
+    width: 189px;
+    top: 269px;
+    left: 88px;
+    font-family: "Inknut Antiqua-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.HIDRO-macam-tanaman .selada-removebg {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 29px;
+    left: 51px;
+    object-fit: cover;
+}
+
+.HIDRO-macam-tanaman .overlap-group {
+    width: 351px;
+    top: 613px;
+    left: 68px;
+    background-color: #008b8b8c;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px #000000;
+    position: absolute;
+    height: 362px;
+}
+
+.HIDRO-macam-tanaman .text-wrapper-3 {
+    position: absolute;
+    width: 253px;
+    top: 252px;
+    left: 49px;
+    font-family: "Inknut Antiqua-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.HIDRO-macam-tanaman .sawi-removebg {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 26px;
+    left: 58px;
+    object-fit: cover;
+}
+
+.HIDRO-macam-tanaman .overlap-2 {
+    width: 351px;
+    top: 199px;
+    left: 544px;
+    background-color: #008b8b8c;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px #000000;
+    position: absolute;
+    height: 362px;
+}
+
+.HIDRO-macam-tanaman .text-wrapper-4 {
+    position: absolute;
+    width: 162px;
+    top: 269px;
+    left: 110px;
+    font-family: "Inknut Antiqua-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.HIDRO-macam-tanaman .removebg {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 29px;
+    left: 50px;
+    object-fit: cover;
+}
+
+.HIDRO-macam-tanaman .overlap-group-2 {
+    width: 351px;
+    top: 613px;
+    left: 544px;
+    background-color: #008b8b8c;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px #000000;
+    position: absolute;
+    height: 362px;
+}
+
+.HIDRO-macam-tanaman .text-wrapper-5 {
+    position: absolute;
+    width: 253px;
+    top: 252px;
+    left: 64px;
+    font-family: "Inknut Antiqua-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.HIDRO-macam-tanaman .img {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 26px;
+    left: 51px;
+    object-fit: cover;
+}
+
+.HIDRO-macam-tanaman .overlap-3 {
+    width: 351px;
+    top: 199px;
+    left: 1020px;
+    background-color: #008b8b8c;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px #000000;
+    position: absolute;
+    height: 362px;
+}
+
+.HIDRO-macam-tanaman .overlap-4 {
+    width: 357px;
+    top: 613px;
+    left: 1020px;
+    position: absolute;
+    height: 362px;
+}
+
+.HIDRO-macam-tanaman .rectangle {
+    position: absolute;
+    width: 351px;
+    height: 362px;
+    top: 0;
+    left: 0;
+    background-color: #008b8b8c;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px #000000;
+}
+
+.HIDRO-macam-tanaman .text-wrapper-6 {
+    position: absolute;
+    width: 332px;
+    top: 252px;
+    left: 25px;
+    font-family: "Inknut Antiqua-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+}

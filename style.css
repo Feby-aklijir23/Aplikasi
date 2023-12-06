@@ -1,0 +1,3048 @@
+/* html {
+  scroll-behavior: smooth;
+}
+body{
+  width: 100%;
+  min-height: 100px;
+} */
+/* halaman utama */
+.halaman-home {
+  background-color: #021c1e;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  
+  }
+  .halaman-home .overlap-wrapper {
+  background-color: #021c1e;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #000000;
+  width: 1440px;
+  height: 1024px;
+  
+  }
+  .halaman-home .overlap {
+  position: relative;
+  width: 1446px;
+  height: 1024px;
+  left: -6px;
+  }
+  .halaman-home .thomas-verbruggen {
+  position: absolute;
+  width: 1440px;
+  height: 1024px;
+  top: 0;
+  left: 6px;
+  object-fit: cover;
+  }
+  .halaman-home .rectangle {
+  width: 613px;
+  height: 1024px;
+  top: 0;
+  left: 0;
+  background-color: #d9d9d94c;
+  position: absolute;
+  border-radius: 15px;
+  }
+  .halaman-home .renuable-energy-0 {
+  position: absolute;
+  width: 150px;
+  height: 110px;
+  top: 0;
+  left: 415px;
+  mix-blend-mode: overlay;
+  margin: 0;
+  padding: 0;
+  }
+
+  .halaman-home .renuable-energy {
+    position: absolute;
+    width: 150px;
+    height: 130px;
+    top: 55px;
+    left: 500px;
+    mix-blend-mode: overlay;
+  }
+/* css daun deket kata leaf */
+  .halaman-home .img {
+  top: 82px;
+  position: absolute;
+  width: 53px;
+  height: 50px;
+  left: 277px;
+  }
+  .halaman-home .renuable-energy-2 {
+  top: 476px;
+  mix-blend-mode: overlay;
+  position: absolute;
+  width: 53px;
+  height: 50px;
+  left: 207px;
+  }
+  .halaman-home .LEAF {
+  position: absolute;
+  width: 265px;
+  top: 51px;
+  left: 40px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: transparent;
+  font-size: 75px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  }
+  .halaman-home .text-wrapper {
+  color: #ffffff;
+  }
+  .halaman-home .span {
+  color: #0bb02f;
+  }
+  .halaman-home .text-wrapper-2 {
+  color: #ffffff;
+  font-size: 64px;
+  }
+  .halaman-home .GUARDIANS {
+  position: absolute;
+  top: 124px;
+  left: 40px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: transparent;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  }
+  .halaman-home .div {
+  position: absolute;
+  top: 68px;
+  left: 809px;
+  mix-blend-mode: screen;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  }
+  .halaman-home .group {
+  position: absolute;
+  width: 147px;
+  height: 36px;
+  top: 64px;
+  left: 981px;
+  }
+  .halaman-home .overlap-group {
+  position: relative;
+  width: 145px;
+  height: 36px;
+  }
+  .halaman-home .arrowdown {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  top: 0;
+  left: 98px;
+  }
+  .halaman-home .text-wrapper-3 {
+  position: absolute;
+  width: 145px;
+  top: 5px;
+  left: 0;
+  mix-blend-mode: screen;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  }
+  .halaman-home .text-wrapper-4 {
+  position: absolute;
+  top: 68px;
+  left: 1174px;
+  mix-blend-mode: screen;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  }
+  .halaman-home .text-wrapper-5 {
+  position: absolute;
+  top: 317px;
+  left: 350px;
+  mix-blend-mode: overlay;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #000000;
+  font-size: 195px;
+  letter-spacing: 0;
+  line-height: normal;
+  }
+  .halaman-home .text-wrapper-6 {
+  position: absolute;
+  top: 314px;
+  left: 613px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 195px;
+  letter-spacing: 0;
+  line-height: normal;
+  }
+  .halaman-home .text-wrapper-7 {
+  position: absolute;
+  top: 516px;
+  left: 398px;
+  mix-blend-mode: overlay;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 60px;
+  letter-spacing: 0;
+  line-height: normal;
+  }
+  .halaman-home .text-wrapper-8 {
+  position: absolute;
+  top: 516px;
+  left: 210px;
+  mix-blend-mode: overlay;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 60px;
+  letter-spacing: 0;
+  line-height: normal;
+  }
+  .halaman-home .p {
+  position: absolute;
+  width: 525px;
+  top: 710px;
+  left: 64px;
+  font-family: "times new roman";
+  /* font-weight: 400; */
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  }
+  .halaman-home .rectangle-2 {
+  width: 230px;
+  height: 30px;
+  top: 880px;
+  left: 50px;
+  background-color: #0000008c;
+  position: absolute;
+  border-radius: 15px;
+  }
+  .halaman-home .text-wrapper-9 {
+  position: absolute;
+  top: 883px;
+  left: 111px;
+  font-family: "times new roman";
+  font-weight: 500;
+  font-style: italic;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  }
+  .halaman-home .arrow {
+  position: absolute;
+  width: 37px;
+  height: 40px;
+  top: 936px;
+  left: 1362px;
+  mix-blend-mode: screen;
+  }
+  
+  /* halaman isi greenhouse */
+  .halaman-isi {
+    background-color: #021c1e;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    /* min-height: 150px; */
+    
+    }
+    .halaman-isi .overlap-wrapper {
+    background-color: #021c1e;
+    overflow: hidden;
+    width: 1440px;
+    height: 1024px;
+    
+    }
+    .halaman-isi .overlap {
+    position: relative;
+    width: 1476px;
+    height: 1051px;
+    top: -27px;
+    left: -36px;
+    }
+    .halaman-isi .overlap-group {
+    position: absolute;
+    width: 1385px;
+    height: 1024px;
+    top: 27px;
+    left: 91px;
+    }
+    .halaman-isi .katrien-van {
+    position: absolute;
+    width: 720px;
+    height: 1024px;
+    top: 0;
+    left: 665px;
+    object-fit: cover;
+    }
+    .halaman-isi .text-wrapper {
+    position: absolute;
+    width: 677px;
+    top: 360px;
+    left: 0;
+    font-family: "Times new roman";
+    /* font-weight: 400; */
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    }
+    .halaman-isi .ellipse {
+    width: 720px;
+    height: 1024px;
+    top: 0;
+    left: 665px;
+    background-color: #cdcdc0;
+    border-radius: 360px/512px;
+    position: absolute;
+    mix-blend-mode: overlay;
+    }
+    .halaman-isi .div {
+    width: 136px;
+    height: 123px;
+    top: 299px;
+    left: 529px;
+    background-color: #d9d9d9;
+    border-radius: 68px/61.5px;
+    position: absolute;
+    mix-blend-mode: overlay;
+    }
+    .halaman-isi .ellipse-2 {
+    width: 136px;
+    height: 123px;
+    top: 502px;
+    left: 45px;
+    background-color: #d9d9d9;
+    border-radius: 68px/61.5px;
+    position: absolute;
+    mix-blend-mode: overlay;
+    }
+    .halaman-isi .ellipse-3 {
+    width: 136px;
+    height: 123px;
+    top: 703px;
+    left: 493px;
+    background-color: #d9d9d9;
+    border-radius: 68px/61.5px;
+    position: absolute;
+    mix-blend-mode: overlay;
+    }
+    .halaman-isi .ellipse-4 {
+    width: 136px;
+    height: 123px;
+    top: 703px;
+    left: 206px;
+    background-color: #d9d9d9;
+    border-radius: 68px/61.5px;
+    position: absolute;
+    mix-blend-mode: overlay;
+    }
+    .halaman-isi .ellipse-5 {
+    width: 136px;
+    height: 123px;
+    top: 0;
+    left: 0;
+    background-color: #d9d9d9;
+    border-radius: 68px/61.5px;
+    position: absolute;
+    mix-blend-mode: overlay;
+    }
+    .halaman-isi .ellipse-6 {
+    width: 136px;
+    height: 123px;
+    top: 213px;
+    left: 91px;
+    background-color: #d9d9d9;
+    border-radius: 68px/61.5px;
+    position: absolute;
+    mix-blend-mode: overlay;
+    }
+    .halaman-isi .ellipse-7 {
+    width: 136px;
+    height: 123px;
+    top: 73px;
+    left: 313px;
+    background-color: #d9d9d9;
+    border-radius: 68px/61.5px;
+    position: absolute;
+    mix-blend-mode: overlay;
+    }
+    .halaman-isi .ellipse-8 {
+    width: 136px;
+    height: 123px;
+    top: 264px;
+    left: 398px;
+    background-color: #d9d9d9;
+    border-radius: 68px/61.5px;
+    position: absolute;
+    mix-blend-mode: overlay;
+    }
+    .halaman-isi .ellipse-9 {
+    width: 136px;
+    height: 123px;
+    top: 61px;
+    left: 584px;
+    background-color: #d9d9d9;
+    border-radius: 68px/61.5px;
+    position: absolute;
+    mix-blend-mode: overlay;
+    }
+    .halaman-isi .ellipse-10 {
+    width: 136px;
+    height: 123px;
+    top: 841px;
+    left: 91px;
+    background-color: #d9d9d9;
+    border-radius: 68px/61.5px;
+    position: absolute;
+    mix-blend-mode: overlay;
+    }
+    .halaman-isi .ellipse-11 {
+    width: 136px;
+    height: 123px;
+    top: 903px;
+    left: 466px;
+    background-color: #d9d9d9;
+    border-radius: 68px/61.5px;
+    position: absolute;
+    mix-blend-mode: overlay;
+    }
+    
+    /* halaman kerangka greenhouse BAMBU */
+    .kerangka-greenhouse {
+      background-color: #021c1e;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 100%;
+      }
+      .kerangka-greenhouse .overlap-group-wrapper {
+      background-color: #021c1e;
+      overflow: hidden;
+      width: 1440px;
+      height: 1024px;
+      }
+      .kerangka-greenhouse .overlap-group {
+      position: relative;
+      width: 1590px;
+      height: 947px;
+      top: 17px;
+      left: -67px;
+      }
+      .kerangka-greenhouse .ellipse {
+      top: 103px;
+      left: 0;
+      position: absolute;
+      width: 456px;
+      height: 456px;
+      background-color: #d9d9d9;
+      border-radius: 228px;
+      mix-blend-mode: overlay;
+      }
+      .kerangka-greenhouse .div {
+      top: 388px;
+      left: 110px;
+      position: absolute;
+      width: 456px;
+      height: 456px;
+      background-color: #d9d9d9;
+      border-radius: 228px;
+      mix-blend-mode: overlay;
+      }
+      .kerangka-greenhouse .ellipse-2 {
+      top: 358px;
+      left: 363px;
+      position: absolute;
+      width: 456px;
+      height: 456px;
+      background-color: #d9d9d9;
+      border-radius: 228px;
+      mix-blend-mode: overlay;
+      }
+      .kerangka-greenhouse .ellipse-3 {
+      top: 358px;
+      left: 653px;
+      position: absolute;
+      width: 456px;
+      height: 456px;
+      background-color: #d9d9d9;
+      border-radius: 228px;
+      mix-blend-mode: overlay;
+      }
+      .kerangka-greenhouse .ellipse-4 {
+      top: 83px;
+      left: 1134px;
+      position: absolute;
+      width: 456px;
+      height: 456px;
+      background-color: #d9d9d9;
+      border-radius: 228px;
+      mix-blend-mode: overlay;
+      }
+      .kerangka-greenhouse .ellipse-5 {
+      top: 358px;
+      left: 995px;
+      position: absolute;
+      width: 456px;
+      height: 456px;
+      background-color: #d9d9d9;
+      border-radius: 228px;
+      mix-blend-mode: overlay;
+      }
+      .kerangka-greenhouse .image {
+      position: absolute;
+      width: 1060px;
+      height: 609px;
+      top: 145px;
+      left: 257px;
+      object-fit: cover;
+      }
+      .kerangka-greenhouse .a-bambu-kelebihan {
+      position: absolute;
+      top: 739px;
+      left: 325px;
+      font-family: "times new roman";
+      /* font-weight: 400; */
+      color: #ffffff;
+      font-size: 24px;
+      letter-spacing: 0;
+      line-height: normal;
+      }
+      .kerangka-greenhouse .text-wrapper {
+      position: absolute;
+      top: 0;
+      left: 432px;
+      font-family: "optima";
+      /* font-weight: 700; */
+      color: #ffffff;
+      font-size: 48px;
+      letter-spacing: 0;
+      line-height: normal;
+      }
+
+      /* halaman KAYU */
+      .kayu {
+        background-color: #021c1e;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        
+        }
+        .kayu .div {
+        background-color: #021c1e;
+        width: 1440px;
+        height: 1024px;
+        position: relative;
+        }
+        .kayu .overlap-group {
+        position: relative;
+        width: 119px;
+        height: 770px;
+        top: 23px;
+        
+        }
+        .kayu .rectangle {
+        height: 88px;
+        top: 682px;
+        position: absolute;
+        width: 199px;
+        left: 0;
+        background-color: #d9d9d9;
+        mix-blend-mode: overlay;
+        }
+        .kayu .rectangle-2 {
+        height: 92px;
+        top: 537px;
+        position: absolute;
+        width: 199px;
+        left: 0;
+        background-color: #d9d9d9;
+        mix-blend-mode: overlay;
+        }
+        .kayu .rectangle-3 {
+        height: 94px;
+        top: 395px;
+        position: absolute;
+        width: 199px;
+        left: 0;
+        background-color: #d9d9d9;
+        mix-blend-mode: overlay;
+        }
+        .kayu .rectangle-4 {
+        height: 90px;
+        top: 253px;
+        position: absolute;
+        width: 199px;
+        left: 0;
+        background-color: #d9d9d9;
+        mix-blend-mode: overlay;
+        }
+        .kayu .rectangle-5 {
+        height: 90px;
+        top: 111px;
+        position: absolute;
+        width: 199px;
+        left: 0;
+        background-color: #d9d9d9;
+        mix-blend-mode: overlay;
+        }
+        .kayu .rectangle-6 {
+        height: 90px;
+        top: 0;
+        position: absolute;
+        /* BGIAN YG SALAH DI WIDTH */
+        width: 199px;
+        left: 0;
+        background-color: #d9d9d9;
+        mix-blend-mode: overlay;
+        }
+        .kayu .image {
+        position: absolute;
+        width: 1000px;
+        height: 698px;
+        border-radius: 10px;
+        top: 45px;
+        left: 150px;
+        object-fit: cover;
+        }
+        .kayu .b-kayu-kelebihan {
+        position: absolute;
+        top: 813px;
+        left: 185px;
+        font-family: "times new roman";
+        /* font-weight: 400; */
+        color: #ffffff;
+        font-size: 24px;
+        letter-spacing: 0;
+        line-height: normal;
+        }
+
+/* halaman kerangka greenhouse besi/baja ringan */
+.besi-baja-ringan {
+  background-color: #021c1e;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.besi-baja-ringan .div {
+  background-color: #021c1e;
+  overflow: hidden;
+  width: 1920px;
+  height: 1080px;
+  position: relative;
+}
+
+.besi-baja-ringan .image {
+  position: absolute;
+  width: 759px;
+  height: 1080px;
+  border-radius: 25px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.besi-baja-ringan .overlap {
+  position: absolute;
+  width: 537px;
+  height: 1106px;
+  top: -44px;
+  left: 800px;
+}
+
+.besi-baja-ringan .c-besi-baja-ringan {
+  position: absolute;
+  width: 486px;
+  top: 437px;
+  left: 0;
+  font-family: "times new roman";
+  /* font-weight: 400; */
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.besi-baja-ringan .group {
+  top: 260px;
+  left: 510px;
+  position: absolute;
+  width: 146px;
+  height: 157px;
+  mix-blend-mode: overlay;
+}
+
+.besi-baja-ringan .overlap-group {
+  position: relative;
+  width: 200px;
+  height: 157px;
+  left: 10px;
+}
+
+.besi-baja-ringan .polygon {
+  top: 0;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: -30px;
+}
+
+/* .besi-baja-ringan .img {
+  top: 78px;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 0px;
+} */
+
+.besi-baja-ringan .group-2 {
+  top: 100px;
+  left: 480px;
+  position: absolute;
+  width: 146px;
+  height: 150px;
+  mix-blend-mode: overlay;
+}
+
+.besi-baja-ringan .group-3 {
+  top: 93px;
+  left: 310px;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  mix-blend-mode: overlay;
+}
+
+.besi-baja-ringan .overlap-wrapper {
+  top: 874px;
+  left: 500px;
+  position: absolute;
+  width: 190px;
+  height: 157px;
+  mix-blend-mode: overlay;
+}
+
+.besi-baja-ringan .overlap-group-wrapper {
+  top: 713px;
+  left: 500px;
+  position: absolute;
+  width: 146px;
+  height: 157px;
+  mix-blend-mode: overlay;
+}
+
+.besi-baja-ringan .div-wrapper {
+  top: 190px;
+  left: 350px;
+  position: absolute;
+  width: 146px;
+  height: 157px;
+  mix-blend-mode: overlay;
+}
+
+.besi-baja-ringan .overlap-2 {
+  position: relative;
+  width: 118px;
+  height: 157px;
+  left: 10px;
+}
+
+/* .besi-baja-ringan .polygon-2 {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 0;
+  left: 0;
+} */
+
+/* .besi-baja-ringan .polygon-3 {
+  width: 150px;
+  height: 150px;
+  top: 78px;
+  position: absolute;
+  left: 0;
+} */
+
+.besi-baja-ringan .group-4 {
+  top: 317px;
+  left: 391px;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  mix-blend-mode: overlay;
+}
+
+.besi-baja-ringan .overlap-3 {
+  position: relative;
+  width: 98px;
+  height: 157px;
+  left: 10px;
+}
+/* mengatur hampir semua gmbar segitiga */
+.besi-baja-ringan .polygon-4 {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+/* .besi-baja-ringan .polygon-5 {
+  width: 150px;
+  height: 150px;
+  top: 78px;
+  position: absolute;
+  left: 0;
+} */
+
+.besi-baja-ringan .group-5 {
+  top: 478px;
+  left: 391px;
+  position: absolute;
+  width: 146px;
+  height: 157px;
+  mix-blend-mode: overlay;
+}
+
+.besi-baja-ringan .group-6 {
+  top: 635px;
+  left: 391px;
+  position: absolute;
+  width: 146px;
+  height: 157px;
+  mix-blend-mode: overlay;
+}
+
+.besi-baja-ringan .group-7 {
+  top: 0;
+  left: 371px;
+  position: absolute;
+  width: 146px;
+  height: 157px;
+  mix-blend-mode: overlay;
+}
+
+.besi-baja-ringan .overlap-4 {
+  position: relative;
+  width: 118px;
+  height: 113px;
+  top: 44px;
+  left: 10px;
+}
+
+/* .besi-baja-ringan .polygon-6 {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.besi-baja-ringan .polygon-7 {
+  width: 150px;
+  height: 150px;
+  top: 34px;
+  position: absolute;
+  left: 0;
+} */
+
+.besi-baja-ringan .group-8 {
+  top: 949px;
+  left: 391px;
+  position: absolute;
+  width: 146px;
+  height: 157px;
+  mix-blend-mode: overlay;
+}
+
+.besi-baja-ringan .overlap-5 {
+  position: relative;
+  width: 98px;
+  height: 150px;
+  left: 10px;
+}
+
+/* .besi-baja-ringan .polygon-8 {
+  width: 98px;
+  height: 41px;
+  top: 78px;
+  position: absolute;
+  left: 0;
+} */
+
+.besi-baja-ringan .group-9 {
+  top: 792px;
+  left: 391px;
+  position: absolute;
+  width: 146px;
+  height: 157px;
+  mix-blend-mode: overlay;
+}
+
+/* halaman penutup greenhouse arcylic */
+.penutup-greenhouse {
+  background-color: #021c1e;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.penutup-greenhouse .overlap-wrapper {
+  background-color: #021c1e;
+  width: 1440px;
+  height: 900px;
+  overflow: hidden;
+  position: relative;
+}
+
+.penutup-greenhouse .overlap {
+  position: relative;
+  width: 1426px;
+  height: 900px;
+}
+
+.penutup-greenhouse .kekurangan-mudah {
+  position: absolute;
+  top: 370px;
+  left: 650px;
+  font-family: "times new roman";
+  /* font-weight: 400; */
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.penutup-greenhouse .overlap-group {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  width: 1426px;
+  height: 900px;
+}
+
+.penutup-greenhouse .kelebihan-sangat {
+  position: absolute;
+  /* width: 491px; */
+  top: 180px;
+  left: 650px;
+  font-family: "times new roman";
+  /* font-weight: 400; */
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.penutup-greenhouse .text-wrapper {
+  position: absolute;
+  top: 158px;
+  left: 700px;
+  font-family: "times new roman";
+  /* font-weight: 700; */
+  color: #ffffff;
+  font-size: 50px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.penutup-greenhouse .rectangle {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  top: 150px;
+  left: 0px;
+  background-color: #032a27;
+  border-radius: 15px;
+}
+
+.penutup-greenhouse .div {
+  position: absolute;
+  top: 60px;
+  left: 70px;
+  font-family: "times new roman";
+  /* gnti font */
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+/* .penutup-greenhouse .line {
+  position: absolute;
+  width: 224px;
+  height: 5px;
+  top: 237px;
+  left: 943px;
+  color: aqua;
+} */
+
+.penutup-greenhouse .image {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  top: 176px;
+  left: 30px;
+  object-fit: cover;
+}
+
+/* halaman kerangka greenhouse polycarbonate */
+.polycarbonate {
+  background-color: #021c1e;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.polycarbonate .div {
+  background-color: #021c1e;
+  overflow: hidden;
+  width: 1440px;
+  height: 1000px;
+  position: relative;
+}
+
+.polycarbonate .overlap-group {
+  position: absolute;
+  width: 1197px;
+  height: 401px;
+  top: 654px;
+  left: -206px;
+}
+
+.polycarbonate .kelebihan-tahan {
+  position: absolute;
+  top: -100px;
+  left: 269px;
+  font-family: "times new roman";
+  /* font-weight: 400; */
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.polycarbonate .kelemahan-mudah {
+  position: absolute;
+  top: 0px;
+  left: 850px;
+  font-family: "times new roman";
+  /* font-weight: 400; */
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.polycarbonate .ellipse {
+  top: -30px;
+  left: 0;
+  position: absolute;
+  width: 411px;
+  height: 186px;
+  background-color: #1995ad85;
+  border-radius: 205.5px/93px;
+  mix-blend-mode: screen;
+}
+
+.polycarbonate .ellipse-2 {
+  top: 60px;
+  left: 206px;
+  position: absolute;
+  width: 411px;
+  height: 186px;
+  background-color: #1995ad85;
+  border-radius: 205.5px/93px;
+  mix-blend-mode: screen;
+}
+
+.polycarbonate .ellipse-3 {
+  top: 25px;
+  left: 457px;
+  position: absolute;
+  width: 411px;
+  height: 186px;
+  background-color: #1995ad85;
+  border-radius: 205.5px/93px;
+  mix-blend-mode: screen;
+}
+
+.polycarbonate .ellipse-4 {
+  top: 1px;
+  left: 786px;
+  position: absolute;
+  width: 411px;
+  height: 186px;
+  background-color: #1995ad85;
+  border-radius: 205.5px/93px;
+  mix-blend-mode: screen;
+}
+
+.polycarbonate .line {
+  position: absolute;
+  width: 10px;
+  height: 288px;
+  top: 568px;
+  left: 1114px;
+}
+
+.polycarbonate .line-stroke {
+  position: absolute;
+  width: 11px;
+  height: 501px;
+  top: 16px;
+  left: 1035px;
+}
+
+.polycarbonate .p-o-l-y-c-a-r-b-o-n {
+  position: absolute;
+  top: 20px;
+  left: 1063px;
+  width: 27px;
+  height: 936px;
+  font-family: "Inknut Antiqua-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.polycarbonate .rectangle {
+  position: absolute;
+  width: 934px;
+  height: 546px;
+  top: -5307px;
+  left: -2258px;
+}
+
+.polycarbonate .image {
+  position: absolute;
+  width: 934px;
+  height: 546px;
+  top: 32px;
+  left: 63px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+/* halaman kerangka fiberglass */
+.fiberglass {
+  background-color: #021c1e;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.fiberglass .div {
+  background-color: #021c1e;
+  width: 1440px;
+  height: 1000px;
+  top: -100px;
+  position: relative;
+}
+
+.fiberglass .overlap {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  top: 0;
+  left: 767px;
+  border-radius: 15px;
+}
+
+.fiberglass .kekurangan-mudah {
+  position: absolute;
+  top: 550px;
+  left: 78px;
+  font-family: "times new roman";
+  /* font-weight: 400; */
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.fiberglass .kelebihan-tahan {
+  position: absolute;
+  width: 490px;
+  top: 241px;
+  left: 71px;
+  font-family: "times new roman";
+  /* font-weight: 400; */
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.fiberglass .rectangle {
+  position: absolute;
+  width: 400px;
+  height: 450px;
+  top: 250px;
+  left: 0;
+  background-color: #3e533a;
+  border-radius: 15px;
+  mix-blend-mode: color-dodge;
+}
+
+.fiberglass .overlap-group {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 230px;
+  left: 0;
+  /* background-image: url(./img/image-7.png); */
+  /* background-size: cover; */
+  /* background-position: 50% 50%; */
+}
+
+.fiberglass .text-wrapper {
+  position: absolute;
+  top: 50px;
+  left: 300px;
+  font-family: "times new roman";
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.fiberglass .text-wrapper-2 {
+  position: absolute;
+  top: 65px;
+  left: 69px;
+  font-family: "times new roman";
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.fiberglass .overlap-group-2 {
+  position: absolute;
+  width: 370px;
+  height: 166px;
+  top: 831px;
+  left: 80px;
+}
+
+.fiberglass .text-wrapper-3 {
+  position: absolute;
+  top: -100px;
+  left: 16px;
+  font-family: "times new roman";
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.fiberglass .arrow {
+  width: 368px;
+  top: -20px;
+  left: 0;
+  position: absolute;
+  height: 22px;
+}
+
+.fiberglass .img {
+  width: 300px;
+  top: 149px;
+  left: 61px;
+  position: absolute;
+  height: 22px;
+}
+
+.fiberglass .tengah{
+  width: 767px;
+}
+
+/* halaman polyethylene film */
+.polyethylene-film {
+  background-color: #021c1e;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.polyethylene-film .overlap-group-wrapper {
+  background-color: #021c1e;
+  overflow: hidden;
+  width: 1440px;
+  height: 1024px;
+}
+
+.polyethylene-film .overlap-group {
+  position: relative;
+  height: 1078px;
+  top: -1px;
+}
+
+.polyethylene-film .arrow {
+  position: absolute;
+  width: 1019px;
+  height: 1019px;
+  top: 1px;
+  left: 0;
+}
+
+.polyethylene-film .img {
+  position: absolute;
+  width: 1021px;
+  height: 1019px;
+  top: 6px;
+  left: 130px;
+}
+
+.polyethylene-film .arrow-2 {
+  position: absolute;
+  width: 1021px;
+  height: 1011px;
+  top: 14px;
+  left: 281px;
+}
+
+.polyethylene-film .arrow-3 {
+  position: absolute;
+  width: 1019px;
+  height: 1019px;
+  top: 6px;
+  left: 421px;
+}
+
+.polyethylene-film .kekurangan-kurang {
+  position: absolute;
+  width: 623px;
+  top: 798px;
+  left: 386px;
+  font-family: "times new roman";
+  /* font-weight: 400; */
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.polyethylene-film .kelebihan-sangat {
+  position: absolute;
+  top: 850px;
+  left: 64px;
+  font-family: "times new roman";
+  /* font-weight: 400; */
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.polyethylene-film .image {
+  position: absolute;
+  width: 1014px;
+  height: 633px;
+  top: 166px;
+  left: 213px;
+  object-fit: cover;
+}
+
+.polyethylene-film .text-wrapper {
+  position: absolute;
+  top: 0;
+  left: 285px;
+  font-family: "times new roman";
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+/* halaman polyvinyl cholride film */
+.polyvinyl-cholride {
+  background-color: #021c1e;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.polyvinyl-cholride .overlap-group-wrapper {
+  background-color: #021c1e;
+  overflow: hidden;
+  width: 1440px;
+  height: 1024px;
+}
+
+.polyvinyl-cholride .overlap-group {
+  position: relative;
+  width: 1536px;
+  height: 1097px;
+  top: 52px;
+  left: -30px;
+}
+
+.polyvinyl-cholride .ellipse {
+  position: absolute;
+  width: 478px;
+  height: 478px;
+  top: 118px;
+  left: 30px;
+  background-color: #057a464c;
+  border-radius: 239px;
+}
+
+.polyvinyl-cholride .div {
+  position: absolute;
+  width: 478px;
+  height: 478px;
+  top: 494px;
+  left: 580px;
+  background-color: #057a464c;
+  border-radius: 239px;
+}
+
+.polyvinyl-cholride .ellipse-2 {
+  position: absolute;
+  width: 478px;
+  height: 478px;
+  top: 1px;
+  left: 1058px;
+  background-color: #6fb98f;
+  border-radius: 239px;
+  mix-blend-mode: overlay;
+}
+
+.polyvinyl-cholride .kelebihan {
+  position: absolute;
+  width: 574px;
+  top: 207px;
+  left: 121px;
+  font-family: "times new roman";
+  /* font-weight: 400; */
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.polyvinyl-cholride .kekurangan-mudah {
+  position: absolute;
+  top: 606px;
+  left: 216px;
+  font-family: "times new roman";
+  /* font-weight: 400; */
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.polyvinyl-cholride .image {
+  position: absolute;
+  width: 775px;
+  height: 579px;
+  top: 242px;
+  left: 695px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.polyvinyl-cholride .ellipse-3 {
+  position: absolute;
+  width: 340px;
+  height: 303px;
+  top: 518px;
+  left: 142px;
+  background-color: #057a464c;
+  border-radius: 170px/151.5px;
+}
+
+.polyvinyl-cholride .ellipse-4 {
+  position: absolute;
+  width: 340px;
+  height: 303px;
+  top: 794px;
+  left: 0;
+  background-color: #057a464c;
+  border-radius: 170px/151.5px;
+}
+
+.polyvinyl-cholride .ellipse-5 {
+  position: absolute;
+  width: 340px;
+  height: 303px;
+  top: 51px;
+  left: 596px;
+  background-color: #057a464c;
+  border-radius: 170px/151.5px;
+}
+
+.polyvinyl-cholride .text-wrapper {
+  position: absolute;
+  top: 0;
+  left: 193px;
+  font-family: "times new roman";
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.polyvinyl-cholride .text-wrapper-2 {
+  position: absolute;
+  top: 0;
+  left: 993px;
+  font-family: "times new roman";
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.polyvinyl-cholride .text-wrapper-3 {
+  position: absolute;
+  top: 0;
+  left: 606px;
+  font-family: "times new roman";
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+/* halaman bahan */
+.bahan {
+  background-color: #021c1e;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.bahan .div {
+  background-color: #021c1e;
+  overflow: hidden;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.bahan .a-alat-pengukur-suhu {
+  position: absolute;
+  top: 200px;
+  left: 740px;
+  font-family: "times new roman";
+  /* font-weight: 400; */
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.bahan .overlap {
+  position: absolute;
+  width: 603px;
+  height: 106px;
+  top: 110px;
+  left: 695px;
+}
+
+.bahan .arrow {
+  position: absolute;
+  width: 462px;
+  height: 5px;
+  top: 102px;
+  left: 0;
+}
+
+.bahan .text-wrapper {
+  position: absolute;
+  top: 0;
+  left: 8px;
+  font-family: "times new roman";
+  /* font-weight: 400; */
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.bahan .jonathan-kemper {
+  position: absolute;
+  width: 627px;
+  height: 1024px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.bahan .overlap-group {
+  position: absolute;
+  width: 129px;
+  height: 1090px;
+  top: -39px;
+  left: 1375px;
+}
+
+.bahan .rectangle {
+  width: 65px;
+  height: 185px;
+  top: 905px;
+  position: absolute;
+  left: -90px;
+  background-color: #00fbece0;
+  border-radius: 143px;
+  mix-blend-mode: overlay;
+}
+
+.bahan .rectangle-2 {
+  position: absolute;
+  width: 65px;
+  height: 196px;
+  top: 0;
+  left: -90px;
+  background-color: #00fbece0;
+  border-radius: 143px;
+  mix-blend-mode: overlay;
+}
+
+.bahan .rectangle-3 {
+  width: 129px;
+  height: 371px;
+  top: 32px;
+  position: absolute;
+  left: -90px;
+  background-color: #00fbece0;
+  border-radius: 143px;
+  mix-blend-mode: overlay;
+}
+
+.bahan .rectangle-4 {
+  width: 65px;
+  height: 371px;
+  top: 238px;
+  position: absolute;
+  left: -90px;
+  background-color: #00fbece0;
+  border-radius: 143px;
+  mix-blend-mode: overlay;
+}
+
+.bahan .rectangle-5 {
+  width: 129px;
+  height: 371px;
+  top: 704px;
+  position: absolute;
+  left: -90px;
+  background-color: #00fbece0;
+  border-radius: 143px;
+  mix-blend-mode: overlay;
+}
+
+.bahan .rectangle-6 {
+  width: 129px;
+  height: 371px;
+  top: 481px;
+  position: absolute;
+  left: -90px;
+  background-color: #00fbece0;
+  border-radius: 143px;
+  mix-blend-mode: overlay;
+}
+
+/* halaman method */
+.halaman-isi-metode {
+    background-color: #021c1e;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.halaman-isi-metode .overlap-group-wrapper {
+    background-color: #021c1e;
+    overflow: hidden;
+    width: 1440px;
+    height: 1024px;
+}
+
+.halaman-isi-metode .overlap-group {
+    position: relative;
+    height: 1024px;
+    width: 1440px;
+    
+}
+
+.halaman-isi-metode .group {
+    position: absolute;
+    width: 1301px;
+    height: 577px;
+    top: 197px;
+    left: 65px;
+}
+/* rectangle aeroponik */
+.halaman-isi-metode .rectangle {
+    left: 800px;
+    position: absolute;
+    width: 365px;
+    height: 577px;
+    top: 0;
+    background-color: #d9d9d954;
+    border-radius: 15px;
+}
+/* rectangle aquaponik */
+.halaman-isi-metode .div {
+    left: 400px;
+    position: absolute;
+    width: 365px;
+    height: 577px;
+    top: 0;
+    background-color: #d9d9d954;
+    border-radius: 15px;
+}
+/* rectangle hidroponik */
+.halaman-isi-metode .rectangle-2 {
+    left: 0;
+    position: absolute;
+    width: 365px;
+    height: 577px;
+    top: 0;
+    background-color: #d9d9d954;
+    border-radius: 15px;
+}
+
+.halaman-isi-metode .definisi {
+    position: absolute;
+    width: 1242px;
+    height: 193px;
+    top: 415px;
+    left: 98px;
+}
+
+.halaman-isi-metode .text-wrapper {
+    position: absolute;
+    width: 279px;
+    top: 1px;
+    left: 0;
+    font-family: "times new roman";
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+/* halaman definisi aeroponik */
+.halaman-isi-metode .p {
+    position: absolute;
+    width: 291px;
+    top: 5px;
+    left: 800px;
+    font-family: "times new roman";
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+/* halaman definisi aquaponik */
+.halaman-isi-metode .text-wrapper-2 {
+    position: absolute;
+    width: 300px;
+    top: 0;
+    left: 400px;
+    font-family: "times new roman";
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.halaman-isi-metode .text-wrapper-3 {
+    position: absolute;
+    width: 282px;
+    top: 33px;
+    left: 579px;
+    font-family: "times new roman";
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.halaman-isi-metode .nama-method {
+    position: absolute;
+    width: 1194px;
+    height: 48px;
+    top: 255px;
+    left: 122px;
+}
+/* halaman judul aeroponik */
+.halaman-isi-metode .text-wrapper-4 {
+    position: absolute;
+    top: 0;
+    left: 800px;
+    font-family: "times new roman";
+    font-weight: 700;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.halaman-isi-metode .text-wrapper-5 {
+    position: absolute;
+    top: 0;
+    left: 400px;
+    font-family: "times new roman";
+    font-weight: 700;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.halaman-isi-metode .text-wrapper-6 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "times new roman";
+    font-weight: 700;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.halaman-isi-metode .marita-kavelashvili {
+    position: absolute;
+    width: 1440px;
+    height: 1024px;
+    top: 0;
+    left: 0;
+    mix-blend-mode: soft-light;
+    object-fit: cover;
+}
+
+/* halaman pengertian hidroponik */
+.HIDRO-isi-halaman {
+    background-color: #021c1e;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.HIDRO-isi-halaman .overlap-group-wrapper {
+    background-color: #021c1e;
+    width: 1440px;
+    height: 1024px;
+}
+
+.HIDRO-isi-halaman .overlap-group {
+    position: relative;
+    height: 1024px;
+    background-image: url(./img/IH.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.HIDRO-isi-halaman .rectangle {
+    position: absolute;
+    width: 720px;
+    height: 1024px;
+    top: 0;
+    left: 0;
+    background-color: #072530b5;
+    border-radius: 15px;
+}
+
+.HIDRO-isi-halaman .text-wrapper {
+    position: absolute;
+    width: 500px;
+    top: 266px;
+    left: 110px;
+    font-family: "times new roman";
+    /* font-weight: 400; */
+    color: #ffffff;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+/* halaman kelebihan & kekurangan hidroponik */
+.HIDRO-kelebihan {
+    background-color: #021c1e;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.HIDRO-kelebihan .div {
+    background-color: #021c1e;
+    width: 1440px;
+    height: 1000px;
+    position: relative;
+}
+.HIDRO-kelebihan .text-wrapper-2 {
+    position: absolute;
+    /* width: 1392px; */
+    top: 42px;
+    left: 48px;
+    font-family: "times new roman";
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+.HIDRO-kelebihan .overlap-group {
+    position: absolute;
+    width: 1313px;
+    height: 690px;
+    top: 210px;
+    left: 48px;
+}
+
+.HIDRO-kelebihan .gh-awal {
+    position: absolute;
+    width: 1000px;
+    height: 690px;
+    top: 100px;
+    left: 300px;
+    background-color: #008b8b8c;
+    border-radius: 25px;
+}
+
+.HIDRO-kelebihan .tanaman-hidroponik {
+    position: absolute;
+    width: 602px;
+    height: 522px;
+    top: 200px;
+    left: 0;
+    object-fit: cover;
+}
+
+.HIDRO-kelebihan .kelebihan-tidak {
+    position: absolute;
+    width: 674px;
+    top: 150px;
+    left: 616px;
+    font-family: "times new roman";
+    /* font-weight: 700; */
+    color: #ffffff;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+/* halaman macam - macam tanaman hidroponik */
+.HIDRO-macam-tanaman {
+    background-color: #021c1e;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.HIDRO-macam-tanaman .div {
+    background-color: #021c1e;
+    overflow: hidden;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+}
+
+.HIDRO-macam-tanaman .text-wrapper {
+    position: absolute;
+    width: 1273px;
+    top: 38px;
+    left: 160px;
+    font-family: "times new roman";
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+/* rectangle tanaman selada */
+.HIDRO-macam-tanaman .overlap {
+    width: 327px;
+    top: 199px;
+    left: 50px;
+    background-color: #008b8b8c;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px #000000;
+    position: relative;
+    height: 362px;
+}
+
+.HIDRO-macam-tanaman .text-wrapper-2 {
+    position: absolute;
+    width: 189px;
+    top: 269px;
+    left: 96px;
+    font-family: "times new roman";
+    /* font-weight: 400; */
+    color: #ffffff;
+    font-size: 35px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.HIDRO-macam-tanaman .selada-removebg {
+    position: relative;
+    width: 245px;
+    height: 245px;
+    top: 29px;
+    left: 40px;
+    object-fit: cover;
+}
+/* rectangle tanaman sawi hijau */
+.HIDRO-macam-tanaman .overlap-group {
+    width: 327px;
+    top: 613px;
+    left: 50px;
+    background-color: #008b8b8c;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px #000000;
+    position: absolute;
+    height: 362px;
+}
+
+.HIDRO-macam-tanaman .text-wrapper-3 {
+    position: absolute;
+    width: 253px;
+    top: 252px;
+    left: 69px;
+    font-family: "times new roman";
+    /* font-weight: 400; */
+    color: #ffffff;
+    font-size: 35px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.HIDRO-macam-tanaman .sawi-removebg {
+    position: relative;
+    width: 245px;
+    height: 245px;
+    top: 26px;
+    left: 40px;
+    object-fit: cover;
+}
+/* rectangle tanaman bayam */
+.HIDRO-macam-tanaman .overlap-2 {
+    width: 327px;
+    top: 199px;
+    left: 480px;
+    background-color: #008b8b8c;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px #000000;
+    position: absolute;
+    height: 362px;
+}
+
+.HIDRO-macam-tanaman .text-wrapper-4 {
+    position: absolute;
+    width: 162px;
+    top: 269px;
+    left: 100px;
+    font-family: "timew new roman";
+    /* font-weight: 400; */
+    color: #ffffff;
+    font-size: 35px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.HIDRO-macam-tanaman .removebg {
+    position: relative;
+    width: 245px;
+    height: 245px;
+    top: 29px;
+    left: 40px;
+    object-fit: cover;
+}
+
+.HIDRO-macam-tanaman .overlap-group-2 {
+    width: 327px;
+    top: 613px;
+    left: 480px;
+    background-color: #008b8b8c;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px #000000;
+    position: absolute;
+    height: 362px;
+}
+
+.HIDRO-macam-tanaman .text-wrapper-5 {
+    position: absolute;
+    width: 253px;
+    top: 252px;
+    left: 89px;
+    font-family: "times new roman";
+    /* font-weight: 400; */
+    color: #ffffff;
+    font-size: 35px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.HIDRO-macam-tanaman .img {
+    position: relative;
+    width: 226px;
+    height: 226px;
+    top: 26px;
+    left: 40px;
+    object-fit: cover;
+}
+/* rectangle tanaman seledri */
+.HIDRO-macam-tanaman .overlap-3 {
+    width: 327px;
+    top: 199px;
+    left: 890px;
+    background-color: #008b8b8c;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px #000000;
+    position: absolute;
+    height: 362px;
+}
+/* rectangle tanaman daun bawang */
+.HIDRO-macam-tanaman .overlap-4 {
+    width: 327px;
+    top: 613px;
+    left: 890px;
+    position: absolute;
+    height: 362px;
+    background-color: #008b8b8c;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px #000000;
+}
+
+.HIDRO-macam-tanaman .text-wrapper-6 {
+    position: absolute;
+    width: 332px;
+    top: 252px;
+    left: 75px;
+    font-family: "times new roman";
+    /* font-weight: 400; */
+    color: #ffffff;
+    font-size: 35px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+/* halaman pengertian aquaponik */
+.isi-halaman-aqua {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.isi-halaman-aqua .overlap-group-wrapper {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 1024px;
+  overflow: hidden;
+}
+
+.isi-halaman-aqua .overlap-group {
+  position: relative;
+  height: 1024px;
+  background-image: url(./img/AP.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.isi-halaman-aqua .rectangle {
+  position: absolute;
+  width: 720px;
+  height: 1024px;
+  top: 0;
+  left: 0;
+  background-color: #072530b5;
+  border-radius: 15px;
+}
+
+.isi-halaman-aqua .aquaponik-menjadi {
+  position: absolute;
+  width: 500px;
+  top: 308px;
+  left: 130px;
+  font-family: "times new roman";
+  /* font-weight: 700; */
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+/* halaman kelebihan & kekurangan aquaponik */
+
+.kelebihan-kekurangan {
+  background-color: #021c1e;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.kelebihan-kekurangan .div {
+  background-color: #021c1e;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+
+.kelebihan-kekurangan .text-wrapper {
+  position: absolute;
+  width: 1392px;
+  top: 42px;
+  left: 48px;
+  font-family: "times new roman";
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.kelebihan-kekurangan .overlap-group {
+  position: absolute;
+  width: 1294px;
+  height: 709px;
+  top: 210px;
+  left: 67px;
+}
+
+.kelebihan-kekurangan .gh-awal {
+  position: absolute;
+  width: 1013px;
+  height: 690px;
+  top: 0;
+  left: 281px;
+  background-color: #008b8b8c;
+  border-radius: 25px;
+}
+
+.kelebihan-kekurangan .kelebihan {
+  position: absolute;
+  width: 674px;
+  top: 100px;
+  left: 605px;
+  font-family: "times new roman";
+  /* font-weight: 700; */
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.kelebihan-kekurangan .aqua-gh {
+  position: absolute;
+  width: 561px;
+  height: 533px;
+  top: 105px;
+  left: 0;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+/* halaman macam - macam tanaman aquaponik */
+.tanaman-aqua {
+  background-color: #021c1e;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.tanaman-aqua .macam-tanaman-aqua {
+  background-color: #021c1e;
+  overflow: hidden;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.tanaman-aqua .text-wrapper {
+  position: absolute;
+  width: 1273px;
+  top: 38px;
+  left: 98px;
+  font-family: "times new roman";
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tanaman-aqua .overlap {
+  width: 351px;
+  top: 199px;
+  left: 68px;
+  background-color: #008b8b8c;
+  border-radius: 15px;
+  box-shadow: 10px 10px 20px #000000;
+  position: absolute;
+  height: 362px;
+}
+
+.tanaman-aqua .div {
+  position: absolute;
+  width: 253px;
+  top: 270px;
+  left: 75px;
+  font-family: "times new roman";
+  /* font-weight: 400; */
+  color: #ffffff;
+  font-size: 35px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tanaman-aqua .kangkung-removebg {
+  position: absolute;
+  width: 245px;
+  height: 245px;
+  top: 29px;
+  left: 58px;
+  object-fit: cover;
+}
+
+.tanaman-aqua .overlap-group {
+  width: 351px;
+  top: 613px;
+  left: 68px;
+  background-color: #008b8b8c;
+  border-radius: 15px;
+  box-shadow: 10px 10px 20px #000000;
+  position: absolute;
+  height: 362px;
+}
+
+.tanaman-aqua .text-wrapper-2 {
+  position: absolute;
+  width: 253px;
+  top: 252px;
+  left: 98px;
+  font-family: "times new roman";
+  /* font-weight: 400; */
+  color: #ffffff;
+  font-size: 35px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tanaman-aqua .removebg {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  top: 21px;
+  left: 49px;
+  object-fit: cover;
+}
+
+.tanaman-aqua .overlap-2 {
+  width: 351px;
+  top: 199px;
+  left: 544px;
+  background-color: #008b8b8c;
+  border-radius: 15px;
+  box-shadow: 10px 10px 20px #000000;
+  position: absolute;
+  height: 362px;
+}
+
+.tanaman-aqua .text-wrapper-3 {
+  position: absolute;
+  width: 189px;
+  top: 261px;
+  left: 96px;
+  font-family: "times new roman";
+  /* font-weight: 400; */
+  color: #ffffff;
+  font-size: 35px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tanaman-aqua .selada-removebg {
+  position: absolute;
+  width: 245px;
+  height: 245px;
+  top: 29px;
+  left: 48px;
+  object-fit: cover;
+}
+
+.tanaman-aqua .overlap-3 {
+  width: 351px;
+  top: 613px;
+  left: 544px;
+  background-color: #008b8b8c;
+  border-radius: 15px;
+  box-shadow: 10px 10px 20px #000000;
+  position: absolute;
+  height: 362px;
+}
+
+.tanaman-aqua .text-wrapper-4 {
+  position: absolute;
+  width: 189px;
+  top: 252px;
+  left: 96px;
+  font-family: "times new roman";
+  /* font-weight: 400; */
+  color: #ffffff;
+  font-size: 35px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tanaman-aqua .terong-removebg {
+  position: absolute;
+  width: 240px;
+  height: 240px;
+  top: 21px;
+  left: 51px;
+  object-fit: cover;
+}
+
+.tanaman-aqua .overlap-4 {
+  width: 327px;
+  top: 199px;
+  left: 1001px;
+  background-color: #008b8b8c;
+  border-radius: 15px;
+  box-shadow: 10px 10px 20px #000000;
+  position: absolute;
+  height: 362px;
+}
+
+.tanaman-aqua .text-wrapper-5 {
+  position: absolute;
+  width: 162px;
+  top: 269px;
+  left: 110px;
+  font-family: "times new roman";
+  /* font-weight: 400; */
+  color: #ffffff;
+  font-size: 35px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tanaman-aqua .cbai-removebg {
+  position: absolute;
+  width: 245px;
+  height: 245px;
+  top: 29px;
+  left: 43px;
+  object-fit: cover;
+}
+/* tomat */
+.tanaman-aqua .overlap-group-2 {
+  width: 428px;
+  top: 613px;
+  left: 1001px;
+  position: absolute;
+  height: 362px;
+}
+
+.tanaman-aqua .rectangle {
+  position: absolute;
+  width: 327px;
+  height: 362px;
+  top: 0;
+  left: 0;
+  background-color: #008b8b8c;
+  border-radius: 15px;
+  box-shadow: 10px 10px 20px #000000;
+}
+
+.tanaman-aqua .text-wrapper-6 {
+  position: absolute;
+  width: 332px;
+  top: 252px;
+  left: 96px;
+  font-family: "times new roman";
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tanaman-aqua .tomat-removebg {
+  position: absolute;
+  width: 245px;
+  height: 245px;
+  top: 21px;
+  left: 50px;
+  object-fit: cover;
+}
+
+/* halaman isi/pengertian aeroponik */
+
+.isi-halaman-aero {
+  background-color: #021c1e;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.isi-halaman-aero .overlap-group-wrapper {
+  background-color: #021c1e;
+  width: 1440px;
+  height: 1024px;
+  overflow: hidden;
+}
+
+.isi-halaman-aero .overlap-group {
+  position: relative;
+  height: 1024px;
+  background-image: url(./img/AERO.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.isi-halaman-aero .rectangle {
+  position: absolute;
+  width: 720px;
+  height: 1024px;
+  top: 0;
+  left: 0;
+  background-color: #072530b5;
+  border-radius: 15px;
+}
+
+.isi-halaman-aero .text-wrapper {
+  position: absolute;
+  width: 500px;
+  top: 350px;
+  left: 110px;
+  font-family: "times new roman";
+  /* font-weight: 700; */
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+/* halaman kelebihan & kekurangan aeroponik */
+.kelebihan-kekurangan-aero {
+    background-color: #021c1e;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.kelebihan-kekurangan-aero .div-aero {
+    background-color: #021c1e;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+    overflow: hidden;
+}
+
+.kelebihan-kekurangan-aero .text-wrapper-aero {
+    position: absolute;
+    width: 1392px;
+    top: 80px;
+    left: 48px;
+    font-family: "times new roman";
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.kelebihan-kekurangan-aero .overlap-group-aero {
+    position: absolute;
+    width: 1313px;
+    height: 709px;
+    top: 210px;
+    left: 48px;
+}
+
+.kelebihan-kekurangan-aero .gh-awal-aero {
+    position: absolute;
+    width: 1013px;
+    height: 600px;
+    top: 0;
+    left: 300px;
+    background-color: #008b8b8c;
+    border-radius: 25px;
+}
+
+.kelebihan-kekurangan-aero .kelebihan-kebutuhan-aero-2 {
+    position: absolute;
+    width: 674px;
+    top: 82px;
+    left: 624px;
+    font-family: "times new roman";
+    /* font-weight: 700; */
+    color: #ffffff;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.kelebihan-kekurangan-aero .aero-gh {
+    position: absolute;
+    width: 602px;
+    height: 458px;
+    top: 56px;
+    left: 0;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+/* halaman macam - macam tanaman aeroponik */
+
+.tanaman-aero {
+    background-color: #021c1e;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.tanaman-aero .macam-tanaman-aero {
+    background-color: #021c1e;
+    overflow: hidden;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+}
+
+.tanaman-aero .text-wrapper {
+    position: absolute;
+    width: 1273px;
+    top: 38px;
+    left: 98px;
+    font-family: "times new roman";
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.tanaman-aero .overlap {
+    width: 351px;
+    top: 199px;
+    left: 68px;
+    background-color: #008b8b8c;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px #000000;
+    position: absolute;
+    height: 362px;
+}
+
+.tanaman-aero .div {
+    position: absolute;
+    width: 253px;
+    top: 278px;
+    left: 75px;
+    font-family: "times new roman";
+    /* font-weight: 400; */
+    color: #ffffff;
+    font-size: 35px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.tanaman-aero .selada-removebg {
+    position: absolute;
+    width: 245px;
+    height: 245px;
+    top: 29px;
+    left: 50px;
+    object-fit: cover;
+}
+
+.tanaman-aero .overlap-group {
+    width: 351px;
+    top: 613px;
+    left: 68px;
+    background-color: #008b8b8c;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px #000000;
+    position: absolute;
+    height: 362px;
+}
+
+.tanaman-aero .text-wrapper-2 {
+    position: absolute;
+    width: 253px;
+    top: 252px;
+    left: 98px;
+    font-family: "times new roman";
+    /* font-weight: 400; */
+    color: #ffffff;
+    font-size: 35px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.tanaman-aero .terong-removebg {
+    position: absolute;
+    width: 245px;
+    height: 245px;
+    top: 21px;
+    left: 49px;
+    object-fit: cover;
+}
+
+.tanaman-aero .overlap-group-2 {
+    width: 351px;
+    top: 199px;
+    left: 544px;
+    background-color: #008b8b8c;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px #000000;
+    position: absolute;
+    height: 362px;
+}
+
+.tanaman-aero .text-wrapper-3 {
+    position: absolute;
+    width: 274px;
+    top: 265px;
+    left: 85px;
+    font-family: "times new roman";
+    /* font-weight: 400; */
+    color: #ffffff;
+    font-size: 35px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.tanaman-aero .stroberi-removebg {
+    position: absolute;
+    width: 245px;
+    height: 245px;
+    top: 56px;
+    left: 58px;
+    object-fit: cover;
+}
+
+.tanaman-aero .overlap-2 {
+    width: 351px;
+    top: 613px;
+    left: 544px;
+    background-color: #008b8b8c;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px #000000;
+    position: absolute;
+    height: 362px;
+}
+
+.tanaman-aero .text-wrapper-4 {
+    position: absolute;
+    width: 255px;
+    top: 257px;
+    left: 85px;
+    font-family: "times new roman";
+    /* font-weight: 400; */
+    color: #ffffff;
+    font-size: 35px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.tanaman-aero .daun-basil-removebg {
+    position: absolute;
+    width: 245px;
+    height: 245px;
+    top: 30px;
+    left: 51px;
+    object-fit: cover;
+}
+
+.tanaman-aero .overlap-3 {
+    width: 327px;
+    top: 199px;
+    left: 1001px;
+    position: absolute;
+    height: 362px;
+}
+
+.tanaman-aero .rectangle {
+    position: absolute;
+    width: 327px;
+    height: 362px;
+    top: 0;
+    left: 0;
+    background-color: #008b8b8c;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px #000000;
+}
+
+.tanaman-aero .text-wrapper-5 {
+    position: absolute;
+    width: 332px;
+    top: 250px;
+    left: 101px;
+    font-family: "times new roman";
+    /* font-weight: 400; */
+    color: #ffffff;
+    font-size: 35px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.tanaman-aero .tomat-removebg {
+    position: absolute;
+    width: 245px;
+    height: 245px;
+    top: 29px;
+    left: 43px;
+    object-fit: cover;
+}
+
+.tanaman-aero .overlap-4 {
+    width: 327px;
+    top: 613px;
+    left: 1001px;
+    background-color: #008b8b8c;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px #000000;
+    position: absolute;
+    height: 362px;
+}
+
+.tanaman-aero .text-wrapper-6 {
+    position: absolute;
+    width: 255px;
+    top: 257px;
+    left: 61px;
+    font-family: "times new roman";
+    /* font-weight: 400; */
+    color: #ffffff;
+    font-size: 35px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.tanaman-aero .mentimun-removebg {
+    position: absolute;
+    width: 245px;
+    height: 245px;
+    top: 26px;
+    left: 66px;
+    object-fit: cover;
+}
+
+/* footer */
+
+.footer {
+    background-color: #135055;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer .div {
+    background-color: #135055;
+    overflow: hidden;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+}
+
+.footer .text-wrapper {
+    position: absolute;
+    width: 416px;
+    top: 470px;
+    left: 550px;
+    font-family: "times new roman";
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.footer .overlap-group-wrapper {
+    position: absolute;
+    width: 1442px;
+    height: 109px;
+    top: 915px;
+    left: 0;
+    background-color: transparent;
+}
+
+.footer .overlap-group {
+    position: relative;
+    width: 1440px;
+    height: 109px;
+    background-color: #021c1e;
+}
+
+.footer .p {
+    position: absolute;
+    width: 938px;
+    top: 41px;
+    left: 410px;
+    font-family: "times new roman";
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.footer .medsos {
+    position: absolute;
+    width: 1099px;
+    height: 258px;
+    top: 605px;
+    left: 213px;
+}
+
+.footer .group {
+    left: 53px;
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: 39px;
+}
+
+.footer .text-wrapper-2 {
+    top: 188px;
+    left: 0;
+    position: absolute;
+    width: 231px;
+    font-family: "Times new roman";
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.footer .overlap {
+    position: absolute;
+    width: 428px;
+    height: 256px;
+    top: 0;
+    left: 316px;
+}
+
+.footer .text-wrapper-3 {
+    top: 188px;
+    left: 108px;
+    position: absolute;
+    width: 231px;
+    font-family: "times new roman";
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.footer .img {
+    left: 170px;
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: 39px;
+}
+
+.footer .line {
+    position: absolute;
+    width: 428px;
+    height: 230px;
+    top: 0;
+    left: 0;
+}
+
+.footer .text-wrapper-4 {
+    top: 190px;
+    left: 862px;
+    position: absolute;
+    width: 231px;
+    font-family: "times new roman";
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.footer .group-2 {
+    left: 888px;
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: 39px;
+}
+
+

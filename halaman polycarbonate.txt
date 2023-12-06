@@ -1,0 +1,176 @@
+halaman polycarbonate : 
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="globals.css" />
+        <link rel="stylesheet" href="styleguide.css" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="polycarbonate">
+            <div class="div">
+                <div class="overlap-group">
+                    <p class="kelebihan-tahan">
+                        <br />Kelebihan :<br />1. Tahan lama<br />2. Flexible<br />3. Lebih tipis<br />4. Lebih Murah dibandingkan
+                        Acrylic
+                    </p>
+                    <p class="kelemahan-mudah">
+                        Kelemahan :<br />1. Mudah tergores<br />2. Mudah memuai<br />3. Gampang menguning
+                    </p>
+                    <div class="ellipse"></div>
+                    <div class="ellipse-2"></div>
+                    <div class="ellipse-3"></div>
+                    <div class="ellipse-4"></div>
+                </div>
+                <img class="line" src="img/line-2.svg" />
+                <img class="line-stroke" src="img/line-1-stroke.svg" />
+                <div class="p-o-l-y-c-a-r-b-o-n">
+                    P<br />O<br />L<br />Y<br />C<br />A<br />R<br />B<br />O<br />N<br />A<br />T<br />E
+                </div>
+                <img class="rectangle" src="img/rectangle-16.svg" />
+                <img class="image" src="img/image-6.png" />
+            </div>
+        </div>
+    </body>
+</html>
+
+
+css:
+
+.polycarbonate {
+    background-color: #021c1e;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.polycarbonate .div {
+    background-color: #021c1e;
+    overflow: hidden;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+}
+
+.polycarbonate .overlap-group {
+    position: absolute;
+    width: 1197px;
+    height: 401px;
+    top: 654px;
+    left: -206px;
+}
+
+.polycarbonate .kelebihan-tahan {
+    position: absolute;
+    top: 0;
+    left: 269px;
+    font-family: "Inika-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.polycarbonate .kelemahan-mudah {
+    position: absolute;
+    top: 39px;
+    left: 850px;
+    font-family: "Inika-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.polycarbonate .ellipse {
+    top: 215px;
+    left: 0;
+    position: absolute;
+    width: 411px;
+    height: 186px;
+    background-color: #1995ad85;
+    border-radius: 205.5px/93px;
+    mix-blend-mode: screen;
+}
+
+.polycarbonate .ellipse-2 {
+    top: 109px;
+    left: 206px;
+    position: absolute;
+    width: 411px;
+    height: 186px;
+    background-color: #1995ad85;
+    border-radius: 205.5px/93px;
+    mix-blend-mode: screen;
+}
+
+.polycarbonate .ellipse-3 {
+    top: 25px;
+    left: 457px;
+    position: absolute;
+    width: 411px;
+    height: 186px;
+    background-color: #1995ad85;
+    border-radius: 205.5px/93px;
+    mix-blend-mode: screen;
+}
+
+.polycarbonate .ellipse-4 {
+    top: 1px;
+    left: 786px;
+    position: absolute;
+    width: 411px;
+    height: 186px;
+    background-color: #1995ad85;
+    border-radius: 205.5px/93px;
+    mix-blend-mode: screen;
+}
+
+.polycarbonate .line {
+    position: absolute;
+    width: 10px;
+    height: 389px;
+    top: 568px;
+    left: 1114px;
+}
+
+.polycarbonate .line-stroke {
+    position: absolute;
+    width: 11px;
+    height: 501px;
+    top: 16px;
+    left: 1035px;
+}
+
+.polycarbonate .p-o-l-y-c-a-r-b-o-n {
+    position: absolute;
+    top: 25px;
+    left: 1063px;
+    font-family: "Inknut Antiqua-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.polycarbonate .rectangle {
+    position: absolute;
+    width: 934px;
+    height: 546px;
+    top: -5307px;
+    left: -2258px;
+}
+
+.polycarbonate .image {
+    position: absolute;
+    width: 934px;
+    height: 546px;
+    top: 32px;
+    left: 63px;
+    object-fit: cover;
+}

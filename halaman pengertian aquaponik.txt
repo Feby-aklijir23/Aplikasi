@@ -1,0 +1,74 @@
+halaman pengertian aquaponik :
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="globals.css" />
+        <link rel="stylesheet" href="styleguide.css" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="isi-halaman-aqua">
+            <div class="overlap-group-wrapper">
+                <div class="overlap-group">
+                    <div class="rectangle"></div>
+                    <p class="aquaponik-menjadi">
+                        Aquaponik menjadi bentuk alternatif menanam tanaman sekaligus memelihara ikan dalam sebuah wadah. Di dalam
+                        aquaponik terdapat sebuah siklus yang saling menguntungkan antara ikan dan tanaman. <br />
+                        <br />Ikan menjadi kunci utama dari sistem aquaponik sebab menjadi sumber nutrisi tinggi bagi tanaman di
+                        atasnya. Tidak heran jika aquaponik hadir sebagai alternatif melakukan bercocok tanam di lahan sempit.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+
+css : 
+
+.isi-halaman-aqua {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.isi-halaman-aqua .overlap-group-wrapper {
+    background-color: #ffffff;
+    width: 1440px;
+    height: 1024px;
+}
+
+.isi-halaman-aqua .overlap-group {
+    position: relative;
+    height: 1024px;
+    background-image: url(./img/aquapo-1.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.isi-halaman-aqua .rectangle {
+    position: absolute;
+    width: 720px;
+    height: 1024px;
+    top: 0;
+    left: 0;
+    background-color: #072530b5;
+    border-radius: 15px;
+}
+
+.isi-halaman-aqua .aquaponik-menjadi {
+    position: absolute;
+    width: 500px;
+    top: 108px;
+    left: 130px;
+    font-family: "Inika-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 35px;
+    letter-spacing: 0;
+    line-height: normal;
+}

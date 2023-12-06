@@ -1,0 +1,163 @@
+halaman fiberglass :
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="globals.css" />
+        <link rel="stylesheet" href="styleguide.css" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="fiberglass">
+            <div class="div">
+                <div class="overlap">
+                    <div class="kekurangan-mudah">Kekurangan :<br />1. Mudah memuai</div>
+                    <p class="kelebihan-tahan">
+                        <br />Kelebihan :<br />1. Tahan lama<br />2. Penampilan menarik<br />3. Harga lebih terjangkau dibandingkan
+                        kaca<br />4. Lebih tahan pengaruh perubahan cuaca<br />5. Mudah dibentuk
+                    </p>
+                    <div class="rectangle"></div>
+                </div>
+                <div class="overlap-group"><div class="text-wrapper">REINFORCED</div></div>
+                <div class="text-wrapper-2">FIBERGLASS</div>
+                <div class="overlap-group-2">
+                    <div class="text-wrapper-3">POLYESTER</div>
+                    <img class="arrow" src="img/arrow-3.svg" />
+                </div>
+                <img class="img" src="img/arrow-2.svg" />
+            </div>
+        </div>
+    </body>
+</html>
+
+css:
+.fiberglass {
+    background-color: #021c1e;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.fiberglass .div {
+    background-color: #021c1e;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+}
+
+.fiberglass .overlap {
+    position: absolute;
+    width: 578px;
+    height: 1024px;
+    top: 0;
+    left: 862px;
+    border-radius: 15px;
+}
+
+.fiberglass .kekurangan-mudah {
+    position: absolute;
+    top: 715px;
+    left: 78px;
+    font-family: "Inika-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.fiberglass .kelebihan-tahan {
+    position: absolute;
+    width: 490px;
+    top: 241px;
+    left: 71px;
+    font-family: "Inika-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.fiberglass .rectangle {
+    position: absolute;
+    width: 578px;
+    height: 1024px;
+    top: 0;
+    left: 0;
+    background-color: #3e533a;
+    border-radius: 15px;
+    mix-blend-mode: color-dodge;
+}
+
+.fiberglass .overlap-group {
+    position: absolute;
+    width: 862px;
+    height: 528px;
+    top: 257px;
+    left: 0;
+    background-image: url(./img/image-7.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.fiberglass .text-wrapper {
+    position: absolute;
+    top: 50px;
+    left: 404px;
+    font-family: "Inika-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 64px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.fiberglass .text-wrapper-2 {
+    position: absolute;
+    top: 65px;
+    left: 69px;
+    font-family: "Inika-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 64px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.fiberglass .overlap-group-2 {
+    position: absolute;
+    width: 370px;
+    height: 166px;
+    top: 831px;
+    left: 80px;
+}
+
+.fiberglass .text-wrapper-3 {
+    position: absolute;
+    top: 0;
+    left: 16px;
+    font-family: "Inika-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 64px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.fiberglass .arrow {
+    width: 368px;
+    top: 73px;
+    left: 0;
+    position: absolute;
+    height: 22px;
+}
+
+.fiberglass .img {
+    width: 414px;
+    top: 149px;
+    left: 61px;
+    position: absolute;
+    height: 22px;
+}

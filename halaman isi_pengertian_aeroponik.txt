@@ -1,0 +1,75 @@
+halaman isi / pengertian aeroponik :
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="globals.css" />
+        <link rel="stylesheet" href="styleguide.css" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="isi-halaman-aero">
+            <div class="overlap-group-wrapper">
+                <div class="overlap-group">
+                    <div class="rectangle"></div>
+                    <p class="text-wrapper">
+                        Aeroponik ini memberikan manfaat bagi petani dan anda yang tidak mempunyai lahan untuk terus bercocok tanam.
+                        Anda bisa melakukannya di pekarangan rumah karena umumnya, media tanam yang digunakan berupa styrofoam dan
+                        membiarkan akar tanaman menggantung di udara.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+
+css :
+
+
+.isi-halaman-aero {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.isi-halaman-aero .overlap-group-wrapper {
+    background-color: #ffffff;
+    width: 1440px;
+    height: 1024px;
+}
+
+.isi-halaman-aero .overlap-group {
+    position: relative;
+    height: 1024px;
+    background-image: url(./img/aero-1.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.isi-halaman-aero .rectangle {
+    position: absolute;
+    width: 720px;
+    height: 1024px;
+    top: 0;
+    left: 0;
+    background-color: #072530b5;
+    border-radius: 15px;
+}
+
+.isi-halaman-aero .text-wrapper {
+    position: absolute;
+    width: 500px;
+    top: 238px;
+    left: 110px;
+    font-family: "Inika-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 35px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+

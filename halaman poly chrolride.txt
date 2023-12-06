@@ -1,0 +1,190 @@
+halaman poly chrolride :
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="globals.css" />
+        <link rel="stylesheet" href="styleguide.css" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="polyvinyl-cholride">
+            <div class="overlap-group-wrapper">
+                <div class="overlap-group">
+                    <div class="ellipse"></div>
+                    <div class="div"></div>
+                    <div class="ellipse-2"></div>
+                    <p class="kelebihan">
+                        Kelebihan :<br />1. Penghantar emisi yang baik<br />2. Mampu menciptakan temperatur udara yang tinggi pada
+                        malam hari<br />3. Penghalang sinar ultra violet
+                    </p>
+                    <div class="kekurangan-mudah">Kekurangan:<br />1. Mudah kotor<br />2. Mahal</div>
+                    <img class="image" src="img/image-9.png" />
+                    <div class="ellipse-3"></div>
+                    <div class="ellipse-4"></div>
+                    <div class="ellipse-5"></div>
+                    <div class="text-wrapper">POLYVINYL</div>
+                    <div class="text-wrapper-2">FILM</div>
+                    <div class="text-wrapper-3">CHOLRIDE</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+
+css : 
+
+.polyvinyl-cholride {
+    background-color: #021c1e;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.polyvinyl-cholride .overlap-group-wrapper {
+    background-color: #021c1e;
+    overflow: hidden;
+    width: 1440px;
+    height: 1024px;
+}
+
+.polyvinyl-cholride .overlap-group {
+    position: relative;
+    width: 1536px;
+    height: 1097px;
+    top: 52px;
+    left: -30px;
+}
+
+.polyvinyl-cholride .ellipse {
+    position: absolute;
+    width: 478px;
+    height: 478px;
+    top: 118px;
+    left: 30px;
+    background-color: #057a464c;
+    border-radius: 239px;
+}
+
+.polyvinyl-cholride .div {
+    position: absolute;
+    width: 478px;
+    height: 478px;
+    top: 494px;
+    left: 580px;
+    background-color: #057a464c;
+    border-radius: 239px;
+}
+
+.polyvinyl-cholride .ellipse-2 {
+    position: absolute;
+    width: 478px;
+    height: 478px;
+    top: 1px;
+    left: 1058px;
+    background-color: #6fb98f;
+    border-radius: 239px;
+    mix-blend-mode: overlay;
+}
+
+.polyvinyl-cholride .kelebihan {
+    position: absolute;
+    width: 574px;
+    top: 207px;
+    left: 121px;
+    font-family: "Inika-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.polyvinyl-cholride .kekurangan-mudah {
+    position: absolute;
+    top: 606px;
+    left: 216px;
+    font-family: "Inika-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.polyvinyl-cholride .image {
+    position: absolute;
+    width: 775px;
+    height: 579px;
+    top: 242px;
+    left: 695px;
+    object-fit: cover;
+}
+
+.polyvinyl-cholride .ellipse-3 {
+    position: absolute;
+    width: 340px;
+    height: 303px;
+    top: 518px;
+    left: 142px;
+    background-color: #057a464c;
+    border-radius: 170px/151.5px;
+}
+
+.polyvinyl-cholride .ellipse-4 {
+    position: absolute;
+    width: 340px;
+    height: 303px;
+    top: 794px;
+    left: 0;
+    background-color: #057a464c;
+    border-radius: 170px/151.5px;
+}
+
+.polyvinyl-cholride .ellipse-5 {
+    position: absolute;
+    width: 340px;
+    height: 303px;
+    top: 51px;
+    left: 596px;
+    background-color: #057a464c;
+    border-radius: 170px/151.5px;
+}
+
+.polyvinyl-cholride .text-wrapper {
+    position: absolute;
+    top: 0;
+    left: 193px;
+    font-family: "Inknut Antiqua-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.polyvinyl-cholride .text-wrapper-2 {
+    position: absolute;
+    top: 0;
+    left: 993px;
+    font-family: "Inknut Antiqua-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.polyvinyl-cholride .text-wrapper-3 {
+    position: absolute;
+    top: 0;
+    left: 606px;
+    font-family: "Inknut Antiqua-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+}
